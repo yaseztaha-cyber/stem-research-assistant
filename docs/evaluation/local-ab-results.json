@@ -1,0 +1,3824 @@
+[
+  {
+    "question": "What equation defines electrical power?",
+    "query_type": "equation",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.13581345810540013,
+        "keyword_score": 0.0,
+        "semantic_norm": 0.3837698214074673,
+        "keyword_norm": 0.0,
+        "score": 0.9302618928444804,
+        "retrieval_score": 0.9302618928444804,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "rerank_score": 1.2302618928444804,
+        "rerank_query_type": "equation",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "805046b9-5b19-42f7-8770-598234e25fbd",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Key Equations",
+        "heading_hierarchy": "Key Equations",
+        "text": "- Ohm's Law: V = I * R\n  - V voltage (V), I current (A), R resistance (\u03a9)\n- Power: P = V * I\n  - P power (W)\n- Efficiency: \u03b7 = Pout / Pin\n  - \u03b7 efficiency (dimensionless or %)\n- Heat: Q = m * c * \u0394T\n ",
+        "content_type": "equation",
+        "chunk_index": 3,
+        "vector_score": 0.0,
+        "keyword_score": 0.13839633249718883,
+        "semantic_norm": 0.0,
+        "keyword_norm": 0.4921529335099629,
+        "score": 0.8968611734039851,
+        "retrieval_score": 0.8968611734039851,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "rerank_score": 1.1968611734039851,
+        "rerank_query_type": "equation",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "271542e5-d95e-469f-b155-881f7a02100c",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Seebeck Effect",
+        "heading_hierarchy": "Seebeck Effect",
+        "text": "- When two different conductors are joined and junctions are at different temperatures, voltage is generated.\n- Equation: V = S * \u0394T\n  - V = voltage [V]\n  - S = Seebeck coefficient [V/K]\n  - \u0394T = temp",
+        "content_type": "equation",
+        "chunk_index": 1,
+        "vector_score": 0.0,
+        "keyword_score": 0.11525716755510734,
+        "semantic_norm": 0.0,
+        "keyword_norm": 0.4098674588898344,
+        "score": 0.8639469835559337,
+        "retrieval_score": 0.8639469835559337,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "rerank_score": 1.1639469835559337,
+        "rerank_query_type": "equation",
+        "reranker": "simple"
+      }
+    ],
+    "context_sent_to_model": "<1347 chars>",
+    "answer_plan": {
+      "question_type": "equation",
+      "required_elements": [
+        "P = VI",
+        "power",
+        "equation",
+        "defines",
+        "electrical"
+      ],
+      "evidence_ids": [
+        "0b694184-2049-4a9f-b22f-031962228bab",
+        "805046b9-5b19-42f7-8770-598234e25fbd",
+        "271542e5-d95e-469f-b155-881f7a02100c"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "P = V * I [SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+        "claims": [
+          {
+            "text": "P = V * I",
+            "type": "source",
+            "claim_type": "equation",
+            "support_status": "supported",
+            "support_score": 0.95,
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "805046b9-5b19-42f7-8770-598234e25fbd"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.9302618928444804
+              },
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "805046b9-5b19-42f7-8770-598234e25fbd",
+                "retrieval_score": 0.8968611734039851
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.927,
+          "percentage": 93,
+          "factors": {
+            "retrieval_relevance": 0.897,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 0.99,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 0.90, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+              "document": "thermoelectric-notes.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Seebeck Effect",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-notes.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 1,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "--> Question type: Explain why you answered the question based on your understanding of the provided context.\nAnswer types can include:\n* Yes \u2013 yes because we know something about the subject matter being discussed so we will use our knowledge for answering questions like these.\n* No \u2013 no because there isn't anything else relevant but just how things work around here.\nNote: This response does not require additional explanation beyond providing an example case study related to the topic under discussion.",
+        "claims": [
+          {
+            "text": "--> Question type: Explain why you answered the question based on your understanding of the provided context.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Answer types can include:\n* Yes \u2013 yes because we know something about the subject matter being discussed so we will use our knowledge for answering questions like these.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "* No \u2013 no because there isn't anything else relevant but just how things work around here.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Note: This response does not require additional explanation beyond providing an example case study related to the topic under discussion.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.662,
+          "percentage": 66,
+          "factors": {
+            "retrieval_relevance": 0.897,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.54,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 4,
+            "source_claims": 0,
+            "generated_claims": 4
+          },
+          "explanation": "Grounding based on 0 source claims vs 4 generated. Retrieval relevance 0.90, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 97,
+          "total_tokens": 1597,
+          "latency_ms": 21003,
+          "cost": "unavailable"
+        },
+        "latency_ms": 48094,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "89fe124a-f0ee-4bff-a81f-488661b1cedd",
+    "category": "equation",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "What equation defines electrical power?",
+    "query_type": "equation",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "271542e5-d95e-469f-b155-881f7a02100c",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Seebeck Effect",
+        "heading_hierarchy": "Seebeck Effect",
+        "text": "- When two different conductors are joined and junctions are at different temperatures, voltage is generated.\n- Equation: V = S * \u0394T\n  - V = voltage [V]\n  - S = Seebeck coefficient [V/K]\n  - \u0394T = temp",
+        "content_type": "equation",
+        "chunk_index": 1,
+        "vector_score": 0.24720247401494763,
+        "keyword_score": 0.11525716755510734,
+        "semantic_norm": 0.6079962483728115,
+        "keyword_norm": 0.4098674588898344,
+        "score": 1.2287447325796206,
+        "retrieval_score": 1.2287447325796206,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "cross_encoder_score": 0.5379821062088013,
+        "cross_encoder_norm": 0.6313428794810736,
+        "rerank_score": 0.8703036207204924,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "805046b9-5b19-42f7-8770-598234e25fbd",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Key Equations",
+        "heading_hierarchy": "Key Equations",
+        "text": "- Ohm's Law: V = I * R\n  - V voltage (V), I current (A), R resistance (\u03a9)\n- Power: P = V * I\n  - P power (W)\n- Efficiency: \u03b7 = Pout / Pin\n  - \u03b7 efficiency (dimensionless or %)\n- Heat: Q = m * c * \u0394T\n ",
+        "content_type": "equation",
+        "chunk_index": 3,
+        "vector_score": 0.42015726796985375,
+        "keyword_score": 0.13839633249718883,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.4921529335099629,
+        "score": 1.4968611734039852,
+        "retrieval_score": 1.4968611734039852,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "cross_encoder_score": -0.3826683759689331,
+        "cross_encoder_norm": 0.4054834787789514,
+        "rerank_score": 0.8420345566289649,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "5572490b-9017-44d8-8caf-523335f50252",
+        "document_id": "60464448-fe62-4811-8e30-056f2c3b8498",
+        "document_name": "lab-manual.md",
+        "page_number": 1,
+        "section": "Calculations",
+        "heading_hierarchy": "Calculations",
+        "text": "- Power: P = V * I  \u2192 check P = I\u00b2 R as verification\n- Efficiency: \u03b7 = P / (k\u00b7A\u00b7\u0394T/d) approximated; use measured heat input if available\n- Plot P vs R for each \u0394T",
+        "content_type": "equation",
+        "chunk_index": 7,
+        "vector_score": 0.3087251653763665,
+        "keyword_score": 0.11525716755510734,
+        "semantic_norm": 0.7474380370182642,
+        "keyword_norm": 0.4098674588898344,
+        "score": 1.3124098057668923,
+        "retrieval_score": 1.3124098057668923,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.7,
+        "cross_encoder_score": -1.5902796983718872,
+        "cross_encoder_norm": 0.1693445489719825,
+        "rerank_score": 0.6265706516899464,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<1380 chars>",
+    "answer_plan": {
+      "question_type": "equation",
+      "required_elements": [
+        "P = VI",
+        "power",
+        "equation",
+        "defines",
+        "electrical"
+      ],
+      "evidence_ids": [
+        "271542e5-d95e-469f-b155-881f7a02100c",
+        "805046b9-5b19-42f7-8770-598234e25fbd",
+        "5572490b-9017-44d8-8caf-523335f50252"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "P = V * I [SOURCE: lab-manual.md p.1 \u00a7Calculations]",
+        "claims": [
+          {
+            "text": "P = V * I",
+            "type": "source",
+            "claim_type": "equation",
+            "support_status": "supported",
+            "support_score": 0.95,
+            "evidence_ids": [
+              "271542e5-d95e-469f-b155-881f7a02100c",
+              "805046b9-5b19-42f7-8770-598234e25fbd"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "271542e5-d95e-469f-b155-881f7a02100c",
+                "retrieval_score": 1.2287447325796206
+              },
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "805046b9-5b19-42f7-8770-598234e25fbd",
+                "retrieval_score": 1.4968611734039852
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 1,
+          "percentage": 100,
+          "factors": {
+            "retrieval_relevance": 1.346,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 1.035,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 1.35, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: lab-manual.md p.1 \u00a7Calculations]",
+              "document": "lab-manual.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Calculations",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "lab-manual.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 1,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "--> Question type: Explain how you answered the original query using your knowledge base.\nAnswer:\n[PROBABILITIES]:\nSources can either agree on an explanation based on their own data set or they may contradict one another but still produce valid answers through other means such as mathematics or logical derivations.\nConclusion: Sources will always give conflicting solutions because there isn't enough evidence so we need additional methods like peer review etc..\n---->> Additional steps needed:\n-----> Next topic: Additional questions about sources' validity & reliability.",
+        "claims": [
+          {
+            "text": "--> Question type: Explain how you answered the original query using your knowledge base.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Answer:\n[PROBABILITIES]:\nSources can either agree on an explanation based on their own data set or they may contradict one another but still produce valid answers through other means such as mathematics or logical derivations.",
+            "type": "generated",
+            "claim_type": "definition",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Conclusion: Sources will always give conflicting solutions because there isn't enough evidence so we need additional methods like peer review etc..",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "---->> Additional steps needed:\n-----> Next topic: Additional questions about sources' validity & reliability.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.803,
+          "percentage": 80,
+          "factors": {
+            "retrieval_relevance": 1.346,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.585,
+            "contradiction_handled": 0.9,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 4,
+            "source_claims": 0,
+            "generated_claims": 4
+          },
+          "explanation": "Grounding based on 0 source claims vs 4 generated. Retrieval relevance 1.35, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1494,
+          "completion_tokens": 112,
+          "total_tokens": 1606,
+          "latency_ms": 20662,
+          "cost": "unavailable"
+        },
+        "latency_ms": 20887,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "925111b7-c43c-49e1-9e1a-c766a132fb78",
+    "category": "equation",
+    "retrieval_label": "dense+cross_encoder"
+  },
+  {
+    "question": "What was the reported experimental improvement when \u0394T increased from 100K to 120K?",
+    "query_type": "experimental_result",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.3025272794583337,
+        "keyword_score": 0.25449314809883866,
+        "semantic_norm": 0.9283885476378789,
+        "keyword_norm": 0.6407622568245858,
+        "score": 0.8133380313125617,
+        "retrieval_score": 0.8133380313125617,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.9441072620817924,
+        "rerank_query_type": "experimental_result",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.24055005992467102,
+        "keyword_score": 0.3474523804103634,
+        "semantic_norm": 0.7381943247151961,
+        "keyword_norm": 0.8748147958952256,
+        "score": 0.7928425131872079,
+        "retrieval_score": 0.7928425131872079,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.9389963593410541,
+        "rerank_query_type": "experimental_result",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "document_id": "44fb146a-4986-4161-920c-560526a4a337",
+        "document_name": "sample-dataset.csv",
+        "page_number": 1,
+        "section": "Dataset Overview",
+        "heading_hierarchy": "Dataset Overview",
+        "text": "Dataset: sample-dataset.csv\nColumns: DeltaT_K, Voltage_V, Current_A, Power_W, Efficiency_pct, Temp_Hot_C, Temp_Cold_C, Load_Ohm\nRows: 12\n\nDeltaT_K  Voltage_V  Current_A  Power_W  Efficiency_pct  Temp_",
+        "content_type": "paragraph",
+        "chunk_index": 0,
+        "vector_score": 0.3258627868989348,
+        "keyword_score": 0.0,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.0,
+        "score": 0.6,
+        "retrieval_score": 0.6,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.7,
+        "rerank_query_type": "experimental_result",
+        "reranker": "simple"
+      }
+    ],
+    "context_sent_to_model": "<2669 chars>",
+    "answer_plan": {
+      "question_type": "experimental_result",
+      "required_elements": [
+        "14%",
+        "DeltaT",
+        "reported",
+        "experimental",
+        "improvement",
+        "when",
+        "\u0394T",
+        "increased",
+        "100K",
+        "120K"
+      ],
+      "evidence_ids": [
+        "0b694184-2049-4a9f-b22f-031962228bab",
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "- Output increased ~14% (normalized) when \u0394T 100K -> 120K\n3. [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]",
+        "claims": [
+          {
+            "text": "- Output increased ~14% (normalized) when \u0394T 100K -> 120K\n3.",
+            "type": "generated",
+            "claim_type": "number",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.8133380313125617
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.7928425131872079
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.619,
+          "percentage": 62,
+          "factors": {
+            "retrieval_relevance": 0.735,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.524,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 1,
+            "source_claims": 0,
+            "generated_claims": 1
+          },
+          "explanation": "Grounding based on 0 source claims vs 1 generated. Retrieval relevance 0.74, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]",
+              "document": "sample-dataset.csv",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Dataset Overview",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "sample-dataset.csv",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "-  0.5         -            -              -               -    - \n3        90+       3                0.4               0.3                 0.1                  0.2                    -  \n4        1                                 0                    0                       0                        0\n                            -                                                                  0\n                        -                                                                   0\n                    -                                                                    0\n                -                                                                     0\n            -                                                                \t\t\t[ ]\n             -                                                                \t\t\t\t[-]]\n                 -                                                                \t\t\t\t\n\t\t\t -                                                                \t\t\t\t\t\t\t\t\n  ---\n          -                                                                ..............................\n              -                                                                __________________________\n           -_______________________________________|-->----|------+--------||--------\\n\n               -----------------------------------------------------------------------------------\n                  +-----------------\\r------|\\t---------:|\n                   \\/\\-.++++++++",
+        "claims": [
+          {
+            "text": "-  0.5         -            -              -               -    - \n3        90+       3                0.4               0.3                 0.1                  0.2                    -  \n4        1                                 0                    0                       0                        0\n                            -                                                                  0\n                        -                                                                   0\n                    -                                                                    0\n                -                                                                     0\n            -                                                                \t\t\t[ ]\n             -                                                                \t\t\t\t[-]]\n                 -                                                                \t\t\t\t\n\t\t\t -                                                                \t\t\t\t\t\t\t\t\n  ---\n          -                                                                ..............................",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "-                                                                __________________________\n           -_______________________________________|-->----|------+--------||--------\\n\n               -----------------------------------------------------------------------------------\n                  +-----------------\\r------|\\t---------:|\n                   \\/\\-.++++++++",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.8133380313125617
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.619,
+          "percentage": 62,
+          "factors": {
+            "retrieval_relevance": 0.735,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.524,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 2,
+            "source_claims": 0,
+            "generated_claims": 2
+          },
+          "explanation": "Grounding based on 0 source claims vs 2 generated. Retrieval relevance 0.74, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 34244,
+          "cost": "unavailable"
+        },
+        "latency_ms": 34547,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "7f7f58dd-b9fe-4866-8d02-164dacc5b2c9",
+    "category": "experimental_result",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "What was the reported experimental improvement when \u0394T increased from 100K to 120K?",
+    "query_type": "experimental_result",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.5061833155920913,
+        "keyword_score": 0.25449314809883866,
+        "semantic_norm": 0.9583001838442623,
+        "keyword_norm": 0.6407622568245858,
+        "score": 0.8312850130363917,
+        "retrieval_score": 0.8312850130363917,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 4.479864597320557,
+        "cross_encoder_norm": 0.9887920932057573,
+        "rerank_score": 0.9257892611380112,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.5263154366826495,
+        "keyword_score": 0.3474523804103634,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.8748147958952256,
+        "score": 0.9499259183580903,
+        "retrieval_score": 0.9499259183580903,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 2.240326404571533,
+        "cross_encoder_norm": 0.903812838073724,
+        "rerank_score": 0.9222580701874705,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 1,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEfficiency is defined as",
+        "content_type": "definition",
+        "chunk_index": 0,
+        "vector_score": 0.19132150240525925,
+        "keyword_score": 0.39717250101469126,
+        "semantic_norm": 0.30612450571808264,
+        "keyword_norm": 1.0,
+        "score": 0.5836747034308496,
+        "retrieval_score": 0.5836747034308496,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 2.9454617500305176,
+        "cross_encoder_norm": 0.9500485592625612,
+        "rerank_score": 0.8034990169298765,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<2029 chars>",
+    "answer_plan": {
+      "question_type": "experimental_result",
+      "required_elements": [
+        "14%",
+        "DeltaT",
+        "reported",
+        "experimental",
+        "improvement",
+        "when",
+        "\u0394T",
+        "increased",
+        "100K",
+        "120K"
+      ],
+      "evidence_ids": [
+        "0b694184-2049-4a9f-b22f-031962228bab",
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+        "claims": [
+          {
+            "text": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3.",
+            "type": "generated",
+            "claim_type": "number",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.8312850130363917
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.9499259183580903
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.633,
+          "percentage": 63,
+          "factors": {
+            "retrieval_relevance": 0.788,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.529,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 1,
+            "source_claims": 0,
+            "generated_claims": 1
+          },
+          "explanation": "Grounding based on 0 source claims vs 1 generated. Retrieval relevance 0.79, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+              "document": "thermoelectric-notes.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Experimental Insights (from paper)",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-notes.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "merit\n-- Figure of merit zt > 0 indicates high performance.\nConclusion: Teg devices can achieve efficiencies up to 5%.\n---- Table: Comparison of Efficiency vs. Temperature\n|\u0394T(\u00b0C)|P||I||ZT|(%)   |\u03b7_(kJ/h)*    |z^(-\u221a((n*p)/\u03b5))     |          |         |        |       |      |           |            |             |               |              |                                |                        |                         |                                                    |                                                                                  |\n                                                                                                                                                                                                     |\n                                                                          |\n                                                                                                   |\n                            12o + 1H - Hv\n                                                 1x + x\u03c9\n                                    1X + \u03c9O\n                                     1",
+        "claims": [
+          {
+            "text": "merit\n-- Figure of merit zt > 0 indicates high performance.",
+            "type": "generated",
+            "claim_type": "interpretation",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.8312850130363917
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.9499259183580903
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Conclusion: Teg devices can achieve efficiencies up to 5%.",
+            "type": "generated",
+            "claim_type": "number",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "---- Table: Comparison of Efficiency vs.",
+            "type": "generated",
+            "claim_type": "experimental_result",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.8312850130363917
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.9499259183580903
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Temperature\n|\u0394T(\u00b0C)|P||I||ZT|(%)   |\u03b7_(kJ/h)*    |z^(-\u221a((n*p)/\u03b5))     |          |         |        |       |      |           |            |             |               |              |                                |                        |                         |                                                    |                                                                                  |\n                                                                                                                                                                                                     |\n                                                                          |\n                                                                                                   |\n                            12o + 1H - Hv\n                                                 1x + x\u03c9\n                                    1X + \u03c9O\n                                     1",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.633,
+          "percentage": 63,
+          "factors": {
+            "retrieval_relevance": 0.788,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.529,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 4,
+            "source_claims": 0,
+            "generated_claims": 4
+          },
+          "explanation": "Grounding based on 0 source claims vs 4 generated. Retrieval relevance 0.79, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 32644,
+          "cost": "unavailable"
+        },
+        "latency_ms": 32839,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "76faf53a-329a-42ff-b63e-17745867342c",
+    "category": "experimental_result",
+    "retrieval_label": "dense+cross_encoder"
+  },
+  {
+    "question": "What materials were used in the experimental setup?",
+    "query_type": "methodology",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.2607703027432083,
+        "keyword_score": 0.08658477190324153,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.330899131850818,
+        "score": 0.7323596527403272,
+        "retrieval_score": 0.7323596527403272,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.8448596527403273,
+        "rerank_query_type": "methodology",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 1,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEfficiency is defined as",
+        "content_type": "definition",
+        "chunk_index": 0,
+        "vector_score": 0.12128607127840424,
+        "keyword_score": 0.2244232968645476,
+        "semantic_norm": 0.4651069159429548,
+        "keyword_norm": 0.8576736124288042,
+        "score": 0.6221335945372946,
+        "retrieval_score": 0.6221335945372946,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.5871335945372945,
+        "rerank_query_type": "methodology",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "2e0ce285-3920-40dd-ab89-6033083fabe1",
+        "document_id": "60464448-fe62-4811-8e30-056f2c3b8498",
+        "document_name": "lab-manual.md",
+        "page_number": 1,
+        "section": "Procedure",
+        "heading_hierarchy": "Procedure",
+        "text": "1. Apply thermal paste, mount TEG between hot plate and heat sink.\n2. Set hot side to 80\u00b0C, cold side ambient, wait for steady state (\u0394T \u2248 50K).\n3. Connect load resistor R = 4 \u03a9, measure V and I.\n4. R",
+        "content_type": "procedure",
+        "chunk_index": 3,
+        "vector_score": 0.1031142845122309,
+        "keyword_score": 0.0,
+        "semantic_norm": 0.3954218844228285,
+        "keyword_norm": 0.0,
+        "score": 0.35725313065369707,
+        "retrieval_score": 0.35725313065369707,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.12,
+        "rerank_score": 0.517253130653697,
+        "rerank_query_type": "methodology",
+        "reranker": "simple",
+        "expanded": false
+      }
+    ],
+    "context_sent_to_model": "<2142 chars>",
+    "answer_plan": {
+      "question_type": "methodology",
+      "required_elements": [
+        "Bi2Te3",
+        "heat sink",
+        "materials",
+        "used",
+        "experimental",
+        "setup"
+      ],
+      "evidence_ids": [
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "2e0ce285-3920-40dd-ab89-6033083fabe1"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: lab-manual.md p.1 \u00a7Procedure]",
+        "claims": [
+          {
+            "text": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3.",
+            "type": "generated",
+            "claim_type": "number",
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.7323596527403272
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.6221335945372946
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.604,
+          "percentage": 60,
+          "factors": {
+            "retrieval_relevance": 0.571,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.507,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 1,
+            "source_claims": 0,
+            "generated_claims": 1
+          },
+          "explanation": "Grounding based on 0 source claims vs 1 generated. Retrieval relevance 0.57, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: lab-manual.md p.1 \u00a7Procedure]",
+              "document": "lab-manual.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Procedure",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "lab-manual.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "K while maintaining constant V.\n6. Measure current through circuit.\nMeasurement accuracy \u00b1 \u03b5 \u2264 0\u00b71%.\nConclusion: Temperature gradient increase leads to an enhancement of electric field strength on the surface of the electrode.\nIn addition, increasing the number of electrodes increases the overall efficiency.\nNote: This method does not require any external components such as resistors or capacitors.\n----\n\nPreliminary analysis shows that the proposed Teg devices can achieve high efficiencies up to 5%, but may degrade performance over time due to degradation caused by heating effects during operation. To address these limitations, we propose two new methods based on different approaches. First, we use a phase change material (PCM)-assisted approach to improve the",
+        "claims": [
+          {
+            "text": "K while maintaining constant V.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Measure current through circuit.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "2e0ce285-3920-40dd-ab89-6033083fabe1"
+            ],
+            "evidence": [
+              {
+                "document": "lab-manual.md",
+                "page": 1,
+                "chunk_id": "2e0ce285-3920-40dd-ab89-6033083fabe1",
+                "retrieval_score": 0.35725313065369707
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Measurement accuracy \u00b1 \u03b5 \u2264 0\u00b71%.",
+            "type": "generated",
+            "claim_type": "number",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Conclusion: Temperature gradient increase leads to an enhancement of electric field strength on the surface of the electrode.",
+            "type": "generated",
+            "claim_type": "causal_claim",
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.7323596527403272
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.6221335945372946
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "In addition, increasing the number of electrodes increases the overall efficiency.",
+            "type": "generated",
+            "claim_type": "experimental_result",
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.7323596527403272
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.6221335945372946
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Note: This method does not require any external components such as resistors or capacitors.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "----\n\nPreliminary analysis shows that the proposed Teg devices can achieve high efficiencies up to 5%, but may degrade performance over time due to degradation caused by heating effects during operation.",
+            "type": "generated",
+            "claim_type": "causal_claim",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "To address these limitations, we propose two new methods based on different approaches.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.6221335945372946
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "First, we use a phase change material (PCM)-assisted approach to improve the",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.7323596527403272
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.6221335945372946
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.604,
+          "percentage": 60,
+          "factors": {
+            "retrieval_relevance": 0.571,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.507,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 9,
+            "source_claims": 0,
+            "generated_claims": 9
+          },
+          "explanation": "Grounding based on 0 source claims vs 9 generated. Retrieval relevance 0.57, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 33664,
+          "cost": "unavailable"
+        },
+        "latency_ms": 33933,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "bb3a2799-4260-48f0-96f2-3d70482681d8",
+    "category": "method",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "What materials were used in the experimental setup?",
+    "query_type": "methodology",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "23dd8004-09e9-4ad8-9618-72b765e41b91",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 3,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "2. Experimental Setup\n2. Experimental Setup\nMaterials: Bi2Te3 modules, heat source, heat sink, thermocouples, electronic load.",
+        "content_type": "paragraph",
+        "chunk_index": 2,
+        "vector_score": 0.539094278028962,
+        "keyword_score": 0.26166515281846453,
+        "semantic_norm": 1.0,
+        "keyword_norm": 1.0,
+        "score": 1.0,
+        "retrieval_score": 1.0,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 8.481379508972168,
+        "cross_encoder_norm": 0.999792750417833,
+        "rerank_score": 0.9998756502506998,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 1,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEfficiency is defined as",
+        "content_type": "definition",
+        "chunk_index": 0,
+        "vector_score": 0.07865428147651522,
+        "keyword_score": 0.2244232968645476,
+        "semantic_norm": 0.17650953503755926,
+        "keyword_norm": 0.8576736124288042,
+        "score": 0.44897516599405723,
+        "retrieval_score": 0.44897516599405723,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": -1.4329030513763428,
+        "cross_encoder_norm": 0.19264675816558763,
+        "rerank_score": 0.29517812129697546,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 5,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "4. Discussion\n4. Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element).\nDeviation at high DeltaT due to thermal losses and contact resistance R_conta",
+        "content_type": "procedure",
+        "chunk_index": 5,
+        "vector_score": 0.1498184688410903,
+        "keyword_score": 0.1380024150422632,
+        "semantic_norm": 0.3037856843302347,
+        "keyword_norm": 0.5274008157211716,
+        "score": 0.5132317368866095,
+        "retrieval_score": 0.5132317368866095,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.12,
+        "cross_encoder_score": -11.113452911376953,
+        "cross_encoder_norm": 1.4910158159280473e-05,
+        "rerank_score": 0.2053016408495394,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<1986 chars>",
+    "answer_plan": {
+      "question_type": "methodology",
+      "required_elements": [
+        "Bi2Te3",
+        "heat sink",
+        "materials",
+        "used",
+        "experimental",
+        "setup"
+      ],
+      "evidence_ids": [
+        "23dd8004-09e9-4ad8-9618-72b765e41b91",
+        "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element). [SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+        "claims": [
+          {
+            "text": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element).",
+            "type": "generated",
+            "claim_type": "equation",
+            "evidence_ids": [
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+              "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.44897516599405723
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 5,
+                "chunk_id": "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+                "retrieval_score": 0.5132317368866095
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.627,
+          "percentage": 63,
+          "factors": {
+            "retrieval_relevance": 0.654,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.515,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 1,
+            "source_claims": 0,
+            "generated_claims": 1
+          },
+          "explanation": "Grounding based on 0 source claims vs 1 generated. Retrieval relevance 0.65, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "3"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "5"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+              "document": "thermoelectric-paper.pdf",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Abstract",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-paper.pdf",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "source]. Use all elements except [additional explanation]; use [other relevant details about [element]] unless specifically requested otherwise.\nAnswer:\n[Additional Information]: This experiment was conducted on a single Bi2TiO\u2083 module fabricated using a silicon wafer substrate coated with a layer of TiO\u2082. The WSeAl substrates had an internal resistivity of 1 K\u03a9\u00b7\u2113 cm\u22121 while the SiGe layers had an external resistivity ranging from 0 \u03a9 \u2113 mm \u2212 1 m\u22c5k\u207b\u00b9 . The entire system consisted of two sections separated by a gap of 0 \u00b5A. Each device contained one Tegaload electrode surrounded by four separate Tegelodes",
+        "claims": [
+          {
+            "text": "Use all elements except [additional explanation]; use [other relevant details about [element]] unless specifically requested otherwise.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Answer:\n[Additional Information]: This experiment was conducted on a single Bi2TiO\u2083 module fabricated using a silicon wafer substrate coated with a layer of TiO\u2082.",
+            "type": "generated",
+            "claim_type": "experimental_result",
+            "evidence_ids": [
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.44897516599405723
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "The WSeAl substrates had an internal resistivity of 1 K\u03a9\u00b7\u2113 cm\u22121 while the SiGe layers had an external resistivity ranging from 0 \u03a9 \u2113 mm \u2212 1 m\u22c5k\u207b\u00b9 .",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "The entire system consisted of two sections separated by a gap of 0 \u00b5A.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.44897516599405723
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Each device contained one Tegaload electrode surrounded by four separate Tegelodes",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.627,
+          "percentage": 63,
+          "factors": {
+            "retrieval_relevance": 0.654,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.515,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 5,
+            "source_claims": 0,
+            "generated_claims": 5
+          },
+          "explanation": "Grounding based on 0 source claims vs 5 generated. Retrieval relevance 0.65, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "3"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "5"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 27058,
+          "cost": "unavailable"
+        },
+        "latency_ms": 27394,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "1c0f54f8-9c71-4778-ba6e-d6b7423576ab",
+    "category": "method",
+    "retrieval_label": "dense+cross_encoder"
+  },
+  {
+    "question": "Compare ZT of this work vs literature nanostructured Bi2Te3",
+    "query_type": "comparison",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.25269736339420323,
+        "keyword_score": 0.1326150020721094,
+        "semantic_norm": 0.7754716818050674,
+        "keyword_norm": 0.4083222204392406,
+        "score": 0.6286118972587367,
+        "retrieval_score": 0.6286118972587367,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.6508341194809589,
+        "rerank_query_type": "comparison",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.24895350393430235,
+        "keyword_score": 0.12257718532138205,
+        "semantic_norm": 0.7639826145951254,
+        "keyword_norm": 0.37741573504937087,
+        "score": 0.6093558627768236,
+        "retrieval_score": 0.6093558627768236,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.6315780849990459,
+        "rerank_query_type": "comparison",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "document_id": "44fb146a-4986-4161-920c-560526a4a337",
+        "document_name": "sample-dataset.csv",
+        "page_number": 1,
+        "section": "Dataset Overview",
+        "heading_hierarchy": "Dataset Overview",
+        "text": "Dataset: sample-dataset.csv\nColumns: DeltaT_K, Voltage_V, Current_A, Power_W, Efficiency_pct, Temp_Hot_C, Temp_Cold_C, Load_Ohm\nRows: 12\n\nDeltaT_K  Voltage_V  Current_A  Power_W  Efficiency_pct  Temp_",
+        "content_type": "paragraph",
+        "chunk_index": 0,
+        "vector_score": 0.3258627868989348,
+        "keyword_score": 0.0,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.0,
+        "score": 0.6,
+        "retrieval_score": 0.6,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.6,
+        "rerank_query_type": "comparison",
+        "reranker": "simple",
+        "expanded": false
+      }
+    ],
+    "context_sent_to_model": "<2669 chars>",
+    "answer_plan": {
+      "question_type": "comparison",
+      "required_elements": [
+        "0.95",
+        "1.1",
+        "ZT",
+        "Compare",
+        "work",
+        "vs",
+        "literature",
+        "nanostructured",
+        "Bi2Te3"
+      ],
+      "evidence_ids": [
+        "0b694184-2049-4a9f-b22f-031962228bab",
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) wh [SOURCE: sample-dataset.csv p.1]",
+        "claims": [
+          {
+            "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.",
+            "type": "generated",
+            "claim_type": "equation",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.6286118972587367
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.6093558627768236
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "- ZT = 0.95 figure of merit.",
+            "type": "generated",
+            "claim_type": "equation",
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.6286118972587367
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.6093558627768236
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "- Output increased ~14% (normalized) wh",
+            "type": "source",
+            "claim_type": "number",
+            "support_status": "supported",
+            "support_score": 1.0,
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.6286118972587367
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.6093558627768236
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.85,
+          "percentage": 85,
+          "factors": {
+            "retrieval_relevance": 0.613,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 0.961,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 3,
+            "source_claims": 1,
+            "generated_claims": 2
+          },
+          "explanation": "Grounding based on 1 source claims vs 2 generated. Retrieval relevance 0.61, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: sample-dataset.csv p.1]",
+              "document": "sample-dataset.csv",
+              "page": "1",
+              "chunk_id": null,
+              "section": null,
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "sample-dataset.csv",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "0         -            -              -               -  1   \n*Note: This data was obtained using an online library called \"Thermal Engineering\". It contains all available temperature profiles over time under various conditions such as heating, cooling, etc..\n***This dataset includes both hot and cold temperatures during different stages of operation. For example, we can look up the maximum value of Efficiency_kpc / kwh * picoamp^(-(n+i)) on the right side of the plot above. ***In addition, there may also exist other variables like Temperature_Hat_(in), Thermal_Capacity_, Thermal_Concentration_. These values will need more detailed analysis before they could directly affect the calculation of the average thermal",
+        "claims": [
+          {
+            "text": "0         -            -              -               -  1   \n*Note: This data was obtained using an online library called \"Thermal Engineering\".",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "It contains all available temperature profiles over time under various conditions such as heating, cooling, etc..",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "***This dataset includes both hot and cold temperatures during different stages of operation.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "For example, we can look up the maximum value of Efficiency_kpc / kwh * picoamp^(-(n+i)) on the right side of the plot above.",
+            "type": "generated",
+            "claim_type": "experimental_result",
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.6093558627768236
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "***In addition, there may also exist other variables like Temperature_Hat_(in), Thermal_Capacity_, Thermal_Concentration_.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "These values will need more detailed analysis before they could directly affect the calculation of the average thermal",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.585,
+          "percentage": 59,
+          "factors": {
+            "retrieval_relevance": 0.613,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.511,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 6,
+            "source_claims": 0,
+            "generated_claims": 6
+          },
+          "explanation": "Grounding based on 0 source claims vs 6 generated. Retrieval relevance 0.61, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 28161,
+          "cost": "unavailable"
+        },
+        "latency_ms": 28336,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "05fc05e6-94b3-4a61-aec0-09b91c6d4b19",
+    "category": "comparison",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "Compare ZT of this work vs literature nanostructured Bi2Te3",
+    "query_type": "comparison",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 6,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "5. Conclusion\n5. Conclusion\nWe demonstrated Bi2Te3 TEG achieves 4.2W at DeltaT=120K with 5.2 percent efficiency.\nFuture work: optimize heat sink design, test nanostructured material to improve ZT.",
+        "content_type": "procedure",
+        "chunk_index": 6,
+        "vector_score": 0.7207157271125992,
+        "keyword_score": 0.2669113353907749,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.8218212677620216,
+        "score": 0.9287285071048086,
+        "retrieval_score": 0.9287285071048086,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 3.8500335216522217,
+        "cross_encoder_norm": 0.9791643393854946,
+        "rerank_score": 0.9589900064732202,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 5,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "4. Discussion\n4. Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element).\nDeviation at high DeltaT due to thermal losses and contact resistance R_conta",
+        "content_type": "procedure",
+        "chunk_index": 5,
+        "vector_score": 0.5890367727088136,
+        "keyword_score": 0.3247802726225693,
+        "semantic_norm": 0.8207559607645147,
+        "keyword_norm": 1.0,
+        "score": 0.8924535764587088,
+        "retrieval_score": 0.8924535764587088,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 6.974795818328857,
+        "cross_encoder_norm": 0.9990657164122052,
+        "rerank_score": 0.9564208604308067,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "8ee45c6f-e2cd-4e74-be12-8f35bda24137",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 6,
+        "section": "References",
+        "heading_hierarchy": "References",
+        "text": "Rowe, D.M. Thermoelectrics Handbook, CRC Press, 2018.\nAuthor et al. Bi2Te3 nanostructures, Journal of Applied Physics, 2020.",
+        "content_type": "reference",
+        "chunk_index": 7,
+        "vector_score": 0.5667066767238069,
+        "keyword_score": 0.1362629875660024,
+        "semantic_norm": 0.7903597853164993,
+        "keyword_norm": 0.4195543850791551,
+        "score": 0.6420376252215616,
+        "retrieval_score": 0.6420376252215616,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": -2.893463134765625,
+        "cross_encoder_norm": 0.05247765127459091,
+        "rerank_score": 0.28830164085337917,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<1291 chars>",
+    "answer_plan": {
+      "question_type": "comparison",
+      "required_elements": [
+        "0.95",
+        "1.1",
+        "ZT",
+        "Compare",
+        "work",
+        "vs",
+        "literature",
+        "nanostructured",
+        "Bi2Te3"
+      ],
+      "evidence_ids": [
+        "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+        "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+        "8ee45c6f-e2cd-4e74-be12-8f35bda24137"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "5. Conclusion\n5. Conclusion\nWe demonstrated Bi2Te3 TEG achieves 4.2W at DeltaT=120K with 5.2 percent efficiency.\nFuture work: optimize heat sink desig [SOURCE: thermoelectric-paper.pdf p.6]",
+        "claims": [
+          {
+            "text": "Conclusion\n5.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 6,
+                "chunk_id": "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+                "retrieval_score": 0.9287285071048086
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Conclusion\nWe demonstrated Bi2Te3 TEG achieves 4.2W at DeltaT=120K with 5.2 percent efficiency.",
+            "type": "generated",
+            "claim_type": "equation",
+            "evidence_ids": [
+              "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+              "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 6,
+                "chunk_id": "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+                "retrieval_score": 0.9287285071048086
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 5,
+                "chunk_id": "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+                "retrieval_score": 0.8924535764587088
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Future work: optimize heat sink desig",
+            "type": "source",
+            "claim_type": "recommendation",
+            "support_status": "supported",
+            "support_score": 0.833,
+            "evidence_ids": [
+              "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 6,
+                "chunk_id": "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+                "retrieval_score": 0.9287285071048086
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.937,
+          "percentage": 94,
+          "factors": {
+            "retrieval_relevance": 0.821,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 0.982,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 3,
+            "source_claims": 1,
+            "generated_claims": 2
+          },
+          "explanation": "Grounding based on 1 source claims vs 2 generated. Retrieval relevance 0.82, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "6"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "5"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-paper.pdf p.6]",
+              "document": "thermoelectric-paper.pdf",
+              "page": "6",
+              "chunk_id": null,
+              "section": null,
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-paper.pdf",
+                "page_number": 6
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "--> Question type: Comparison\nAnswer text length: 1 - 4 sentences without quotation marks unless requested otherwise\nFormatting required: Inline bold formatting within paragraph block\nUse no more than two paragraphs on topic.\nNo additional details needed beyond these requirements.",
+        "claims": [
+          {
+            "text": "--> Question type: Comparison\nAnswer text length: 1 - 4 sentences without quotation marks unless requested otherwise\nFormatting required: Inline bold formatting within paragraph block\nUse no more than two paragraphs on topic.",
+            "type": "generated",
+            "claim_type": "comparison",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "No additional details needed beyond these requirements.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.672,
+          "percentage": 67,
+          "factors": {
+            "retrieval_relevance": 0.821,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.532,
+            "contradiction_handled": 1.0,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 2,
+            "source_claims": 0,
+            "generated_claims": 2
+          },
+          "explanation": "Grounding based on 0 source claims vs 2 generated. Retrieval relevance 0.82, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "6"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "5"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1464,
+          "completion_tokens": 55,
+          "total_tokens": 1519,
+          "latency_ms": 17948,
+          "cost": "unavailable"
+        },
+        "latency_ms": 18140,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "d9ead874-20e1-41e2-b4b4-e90b6c4b5130",
+    "category": "comparison",
+    "retrieval_label": "dense+cross_encoder"
+  },
+  {
+    "question": "What table shows DeltaT, V, I, P values?",
+    "query_type": "table",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.21806475187186788,
+        "keyword_score": 0.38702228230031066,
+        "semantic_norm": 0.6161883516446808,
+        "keyword_norm": 1.0,
+        "score": 1.2697130109868084,
+        "retrieval_score": 1.2697130109868084,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.5,
+        "rerank_score": 1.3822130109868085,
+        "rerank_query_type": "table",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "document_id": "44fb146a-4986-4161-920c-560526a4a337",
+        "document_name": "sample-dataset.csv",
+        "page_number": 1,
+        "section": "Dataset Overview",
+        "heading_hierarchy": "Dataset Overview",
+        "text": "Dataset: sample-dataset.csv\nColumns: DeltaT_K, Voltage_V, Current_A, Power_W, Efficiency_pct, Temp_Hot_C, Temp_Cold_C, Load_Ohm\nRows: 12\n\nDeltaT_K  Voltage_V  Current_A  Power_W  Efficiency_pct  Temp_",
+        "content_type": "paragraph",
+        "chunk_index": 0,
+        "vector_score": 0.3538930122418362,
+        "keyword_score": 0.0,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.0,
+        "score": 0.6,
+        "retrieval_score": 0.6,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.7,
+        "rerank_query_type": "table",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 1,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEfficiency is defined as",
+        "content_type": "definition",
+        "chunk_index": 0,
+        "vector_score": 0.12128607127840424,
+        "keyword_score": 0.3686937643867223,
+        "semantic_norm": 0.34271959909601785,
+        "keyword_norm": 0.9526422153147082,
+        "score": 0.586688645583494,
+        "retrieval_score": 0.586688645583494,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.559188645583494,
+        "rerank_query_type": "table",
+        "reranker": "simple"
+      }
+    ],
+    "context_sent_to_model": "<3334 chars>",
+    "answer_plan": {
+      "question_type": "table",
+      "required_elements": [
+        "DeltaT",
+        "V",
+        "I",
+        "P",
+        "table",
+        "shows",
+        "values"
+      ],
+      "evidence_ids": [
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]",
+        "claims": [
+          {
+            "text": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2",
+            "type": "source",
+            "claim_type": "experimental_result",
+            "support_status": "not_applicable",
+            "support_score": 0,
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 1.2697130109868084
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 1,
+                "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+                "retrieval_score": 0.586688645583494
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.076,
+          "percentage": 8,
+          "factors": {
+            "retrieval_relevance": 0.819,
+            "evidence_coverage": 0.0,
+            "claim_source_alignment": 0.082,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 1.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 0.82, coverage 0.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]",
+              "document": "sample-dataset.csv",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Dataset Overview",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "sample-dataset.csv",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "10        \n|            |                   |                  |                      |                |               |              |   -    |  \n1        20       -0.1                    -0                                   |                     |                         |                        | \n2        18       -1.0                    -1                                                                   |                             |                         +-------------+------------+-------\n  1        -0        -10.0                 |.............................._______________________________________________________________\n 2        -2        +10                                 |------------------------------------------------------------------------++--++++-----*\n          |--------------------------------------||---->-------------------------|||\n         |---------------------------------------------------------- ||++++++++-----------======\n        |------------------------||(===============================================)*\n      |------------------|(========================)=---------------------",
+        "claims": [
+          {
+            "text": "10        \n|            |                   |                  |                      |                |               |              |   -    |  \n1        20       -0.1                    -0                                   |                     |                         |                        | \n2        18       -1.0                    -1                                                                   |                             |                         +-------------+------------+-------\n  1        -0        -10.0                 |.............................._______________________________________________________________\n 2        -2        +10                                 |------------------------------------------------------------------------++--++++-----*\n          |--------------------------------------||---->-------------------------|||\n         |---------------------------------------------------------- ||++++++++-----------======\n        |------------------------||(===============================================)*\n      |------------------|(========================)=---------------------",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.641,
+          "percentage": 64,
+          "factors": {
+            "retrieval_relevance": 0.819,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.532,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 1,
+            "source_claims": 0,
+            "generated_claims": 1
+          },
+          "explanation": "Grounding based on 0 source claims vs 1 generated. Retrieval relevance 0.82, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "sample-dataset.csv",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 46114,
+          "cost": "unavailable"
+        },
+        "latency_ms": 46585,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "9f63e863-f085-4bc5-984e-33aaa5b991ca",
+    "category": "table",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "What table shows DeltaT, V, I, P values?",
+    "query_type": "table",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.31759214481138426,
+        "keyword_score": 0.38702228230031066,
+        "semantic_norm": 0.44796466379501404,
+        "keyword_norm": 1.0,
+        "score": 1.1687787982770084,
+        "retrieval_score": 1.1687787982770084,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0.5,
+        "cross_encoder_score": 5.011507987976074,
+        "cross_encoder_norm": 0.9933832221277524,
+        "rerank_score": 1.063541452587455,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf",
+        "document_id": "60464448-fe62-4811-8e30-056f2c3b8498",
+        "document_name": "lab-manual.md",
+        "page_number": 1,
+        "section": "Measurements",
+        "heading_hierarchy": "Measurements",
+        "text": "Record in table: \u0394T (K), R (\u03a9), V (V), I (A), P (W)",
+        "content_type": "paragraph",
+        "chunk_index": 5,
+        "vector_score": 0.6652641195941196,
+        "keyword_score": 0.32321401286206103,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.8351302435120842,
+        "score": 0.9340520974048336,
+        "retrieval_score": 0.9340520974048336,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 4.958573818206787,
+        "cross_encoder_norm": 0.9930260409943946,
+        "rerank_score": 0.9694364635585702,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.37837144271097206,
+        "keyword_score": 0.2391516917162848,
+        "semantic_norm": 0.5444703432397527,
+        "keyword_norm": 0.6179274492798185,
+        "score": 0.573853185655779,
+        "retrieval_score": 0.573853185655779,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 0.9763646125793457,
+        "cross_encoder_norm": 0.7263862807603713,
+        "rerank_score": 0.6653730427185344,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<1206 chars>",
+    "answer_plan": {
+      "question_type": "table",
+      "required_elements": [
+        "DeltaT",
+        "V",
+        "I",
+        "P",
+        "table",
+        "shows",
+        "values"
+      ],
+      "evidence_ids": [
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf",
+        "0b694184-2049-4a9f-b22f-031962228bab"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+        "claims": [
+          {
+            "text": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2",
+            "type": "source",
+            "claim_type": "experimental_result",
+            "support_status": "not_applicable",
+            "support_score": 0,
+            "evidence_ids": [
+              "82704aa3-9238-4c32-ac4e-00a1a450975e",
+              "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 1.1687787982770084
+              },
+              {
+                "document": "lab-manual.md",
+                "page": 1,
+                "chunk_id": "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf",
+                "retrieval_score": 0.9340520974048336
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.096,
+          "percentage": 10,
+          "factors": {
+            "retrieval_relevance": 0.892,
+            "evidence_coverage": 0.0,
+            "claim_source_alignment": 0.089,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 1.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 0.89, coverage 0.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ],
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+              "document": "thermoelectric-notes.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Experimental Insights (from paper)",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-notes.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "consistently throughout all answers unless there's an obvious reason why you're using different elements based on your context.\n*   When citing multiple sources within a single response, use the same type of reference number (in this case, [source]).\n**    *       **      **     **        **         ***          *****           ******\n    *            ***************-\\*\\n[name].docx|file:////C:\\Users\\Johnny\\_Boguszka\\\\Desktop\\\\Projects\\\\Research\\\\DataAnalysis&Tools & Libraries\\\\SalesAndMarketing\\\\dataanalysisandmarkup\\\\researchworkbook._xlsm - Data Analysis Toolbox \\*.csv\n\n    *             ******************\n        *              **",
+        "claims": [
+          {
+            "text": "consistently throughout all answers unless there's an obvious reason why you're using different elements based on your context.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "*   When citing multiple sources within a single response, use the same type of reference number (in this case, ).",
+            "type": "source",
+            "claim_type": "fact",
+            "support_status": "unsupported",
+            "support_score": 0.15,
+            "evidence_ids": [],
+            "evidence": [],
+            "citation_status": "INVALID"
+          },
+          {
+            "text": "**    *       **      **     **        **         ***          *****           ******\n    *            ***************-\\*\\n[name].docx|file:////C:\\Users\\Johnny\\_Boguszka\\\\Desktop\\\\Projects\\\\Research\\\\DataAnalysis&Tools & Libraries\\\\SalesAndMarketing\\\\dataanalysisandmarkup\\\\researchworkbook._xlsm - Data Analysis Toolbox \\*.csv\n\n    *             ******************\n        *              **",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.511,
+          "percentage": 51,
+          "factors": {
+            "retrieval_relevance": 0.892,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.539,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.5,
+            "total_claims": 3,
+            "source_claims": 1,
+            "generated_claims": 2
+          },
+          "explanation": "Grounding based on 1 source claims vs 2 generated. Retrieval relevance 0.89, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 0,
+          "partial_count": 1,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "lab-manual.md",
+              "1"
+            ],
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[source]",
+              "document": null,
+              "page": null,
+              "chunk_id": null,
+              "section": null,
+              "status": "PARTIAL",
+              "reason": "generic SOURCE tag without specific provenance",
+              "evidence": null
+            }
+          ],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 37891,
+          "cost": "unavailable"
+        },
+        "latency_ms": 38126,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "099759d2-bc50-4fe0-8569-418c55111880",
+    "category": "table",
+    "retrieval_label": "dense+cross_encoder"
+  },
+  {
+    "question": "Is 4.2W at 120K consistent with V 3.3V and I 1.27A?",
+    "query_type": "general",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "tfidf",
+      "reranker": "simple"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "document_id": "44fb146a-4986-4161-920c-560526a4a337",
+        "document_name": "sample-dataset.csv",
+        "page_number": 1,
+        "section": "Dataset Overview",
+        "heading_hierarchy": "Dataset Overview",
+        "text": "Dataset: sample-dataset.csv\nColumns: DeltaT_K, Voltage_V, Current_A, Power_W, Efficiency_pct, Temp_Hot_C, Temp_Cold_C, Load_Ohm\nRows: 12\n\nDeltaT_K  Voltage_V  Current_A  Power_W  Efficiency_pct  Temp_",
+        "content_type": "paragraph",
+        "chunk_index": 0,
+        "vector_score": 0.4089642556596154,
+        "keyword_score": 0.1864848434268642,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.5043111872570172,
+        "score": 0.8017244749028068,
+        "retrieval_score": 0.8017244749028068,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.8017244749028068,
+        "rerank_query_type": "general",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.25144243605558414,
+        "keyword_score": 0.36325655419573694,
+        "semantic_norm": 0.6148274148067892,
+        "keyword_norm": 0.982355138138561,
+        "score": 0.7618385041394979,
+        "retrieval_score": 0.7618385041394979,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.7982021405031343,
+        "rerank_query_type": "general",
+        "reranker": "simple"
+      },
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.11977621161419275,
+        "keyword_score": 0.34355525649248864,
+        "semantic_norm": 0.2928769689688567,
+        "keyword_norm": 0.9290768949706348,
+        "score": 0.547356939369568,
+        "retrieval_score": 0.547356939369568,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "rerank_score": 0.5837205757332043,
+        "rerank_query_type": "general",
+        "reranker": "simple"
+      }
+    ],
+    "context_sent_to_model": "<2669 chars>",
+    "answer_plan": {
+      "question_type": "general",
+      "required_elements": [
+        "3.3",
+        "1.27",
+        "4.2W",
+        "120K",
+        "consistent",
+        "3.3V",
+        "1.27A"
+      ],
+      "evidence_ids": [
+        "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "0b694184-2049-4a9f-b22f-031962228bab"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "Dataset: sample-dataset [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+        "claims": [
+          {
+            "text": "Dataset: sample-dataset",
+            "type": "source",
+            "claim_type": "fact",
+            "support_status": "supported",
+            "support_score": 0.5,
+            "evidence_ids": [
+              "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+            ],
+            "evidence": [
+              {
+                "document": "sample-dataset.csv",
+                "page": 1,
+                "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+                "retrieval_score": 0.8017244749028068
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.875,
+          "percentage": 87,
+          "factors": {
+            "retrieval_relevance": 0.704,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 0.97,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 0.70, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "sample-dataset.csv",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]",
+              "document": "thermoelectric-notes.md",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Experimental Insights (from paper)",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-notes.md",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "1              -1                -1               -1                  -1                   \n max     90.                    1                                1                   1                       1                        1  \n mean min avg std dev count total error sum precision margin of error confidence interval range width standard deviation\n     ||-------+---------|---------+------:|----||----------------------|||\n   |-->----------+++++++++++++++========* ||---------------------------------------------------------------------------\n  ---------------- +---------------+-------------------------\n          |==========+============+================~~~~~<!-.\n      | -- >------------+--------------------->__\\n\n    | ======================================\\t|\\\n       | ==<<[]|::(.*)&()=\"\\\\\"\\r\")@%^$#'zOQw",
+        "claims": [
+          {
+            "text": "1              -1                -1               -1                  -1                   \n max     90.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+            ],
+            "evidence": [
+              {
+                "document": "sample-dataset.csv",
+                "page": 1,
+                "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+                "retrieval_score": 0.8017244749028068
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "1                                1                   1                       1                        1  \n mean min avg std dev count total error sum precision margin of error confidence interval range width standard deviation\n     ||-------+---------|---------+------:|----||----------------------|||\n   |-->----------+++++++++++++++========* ||---------------------------------------------------------------------------\n  ---------------- +---------------+-------------------------\n          |==========+============+================~~~~~<!-.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [
+              "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+            ],
+            "evidence": [
+              {
+                "document": "sample-dataset.csv",
+                "page": 1,
+                "chunk_id": "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+                "retrieval_score": 0.8017244749028068
+              }
+            ],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "| -- >------------+--------------------->__\\n\n    | ======================================\\t|\\\n       | ==<<[]|::(.*)&()=\"\\\\\"\\r\")@%^$#'zOQw",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.61,
+          "percentage": 61,
+          "factors": {
+            "retrieval_relevance": 0.704,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.52,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 3,
+            "source_claims": 0,
+            "generated_claims": 3
+          },
+          "explanation": "Grounding based on 0 source claims vs 3 generated. Retrieval relevance 0.70, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "sample-dataset.csv",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 42161,
+          "cost": "unavailable"
+        },
+        "latency_ms": 42501,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "cb215bba-e905-4b32-a63e-4e89dbcc6112",
+    "category": "derived",
+    "retrieval_label": "tfidf+simple"
+  },
+  {
+    "question": "Is 4.2W at 120K consistent with V 3.3V and I 1.27A?",
+    "query_type": "general",
+    "prompt_version": "v3",
+    "retrieval_config": {
+      "embedding": "dense",
+      "reranker": "cross_encoder"
+    },
+    "retrieved": [
+      {
+        "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+        "document_id": "5518fc2c-c1fd-48c0-af4f-e85022f07e2a",
+        "document_name": "thermoelectric-notes.md",
+        "page_number": 1,
+        "section": "Experimental Insights (from paper)",
+        "heading_hierarchy": "Experimental Insights (from paper)",
+        "text": "- At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K",
+        "content_type": "equation",
+        "chunk_index": 4,
+        "vector_score": 0.48561219337243705,
+        "keyword_score": 0.34355525649248864,
+        "semantic_norm": 1.0,
+        "keyword_norm": 0.9290768949706348,
+        "score": 0.9716307579882539,
+        "retrieval_score": 0.9716307579882539,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 5.2033281326293945,
+        "cross_encoder_norm": 0.9945318302021451,
+        "rerank_score": 0.9853714013165886,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 4,
+        "section": "Procedure:",
+        "heading_hierarchy": "Procedure:",
+        "text": "3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximately 14 percent when ",
+        "content_type": "table",
+        "chunk_index": 4,
+        "vector_score": 0.4053256725963302,
+        "keyword_score": 0.36325655419573694,
+        "semantic_norm": 0.8167245006425792,
+        "keyword_norm": 0.982355138138561,
+        "score": 0.8829767556409719,
+        "retrieval_score": 0.8829767556409719,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 2.9473705291748047,
+        "cross_encoder_norm": 0.9501390650715085,
+        "rerank_score": 0.9232741412992937,
+        "reranker": "cross_encoder"
+      },
+      {
+        "chunk_id": "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+        "document_id": "8deb5c0c-49c2-4315-8f82-49fbd459de3d",
+        "document_name": "thermoelectric-paper.pdf",
+        "page_number": 1,
+        "section": "Abstract",
+        "heading_hierarchy": "Abstract",
+        "text": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEfficiency is defined as",
+        "content_type": "definition",
+        "chunk_index": 0,
+        "vector_score": 0.26107875788408796,
+        "keyword_score": 0.3697812940481609,
+        "semantic_norm": 0.48744226161795506,
+        "keyword_norm": 1.0,
+        "score": 0.692465356970773,
+        "retrieval_score": 0.692465356970773,
+        "fusion_weights": {
+          "semantic": 0.6,
+          "keyword": 0.4
+        },
+        "metadata_boost": 0,
+        "cross_encoder_score": 1.083969235420227,
+        "cross_encoder_norm": 0.7472443891145607,
+        "rerank_score": 0.7253327762570456,
+        "reranker": "cross_encoder"
+      }
+    ],
+    "context_sent_to_model": "<2029 chars>",
+    "answer_plan": {
+      "question_type": "general",
+      "required_elements": [
+        "3.3",
+        "1.27",
+        "4.2W",
+        "120K",
+        "consistent",
+        "3.3V",
+        "1.27A"
+      ],
+      "evidence_ids": [
+        "0b694184-2049-4a9f-b22f-031962228bab",
+        "82704aa3-9238-4c32-ac4e-00a1a450975e",
+        "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+      ],
+      "must_cite": true
+    },
+    "arms": {
+      "mock": {
+        "answer": "- At \u0394T = 120K, V \u2248 3 [SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+        "claims": [
+          {
+            "text": "- At \u0394T = 120K, V \u2248 3",
+            "type": "source",
+            "claim_type": "equation",
+            "support_status": "supported",
+            "support_score": 0.95,
+            "evidence_ids": [
+              "0b694184-2049-4a9f-b22f-031962228bab",
+              "82704aa3-9238-4c32-ac4e-00a1a450975e"
+            ],
+            "evidence": [
+              {
+                "document": "thermoelectric-notes.md",
+                "page": 1,
+                "chunk_id": "0b694184-2049-4a9f-b22f-031962228bab",
+                "retrieval_score": 0.9716307579882539
+              },
+              {
+                "document": "thermoelectric-paper.pdf",
+                "page": 4,
+                "chunk_id": "82704aa3-9238-4c32-ac4e-00a1a450975e",
+                "retrieval_score": 0.8829767556409719
+              }
+            ],
+            "citation_status": "VALID"
+          }
+        ],
+        "grounding": {
+          "score": 0.914,
+          "percentage": 91,
+          "factors": {
+            "retrieval_relevance": 0.849,
+            "evidence_coverage": 1.0,
+            "claim_source_alignment": 0.985,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0.0,
+            "total_claims": 1,
+            "source_claims": 1,
+            "generated_claims": 0
+          },
+          "explanation": "Grounding based on 1 source claims vs 0 generated. Retrieval relevance 0.85, coverage 1.00."
+        },
+        "citations": {
+          "total_found": 1,
+          "valid_count": 1,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": true,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [
+            {
+              "raw": "[SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+              "document": "thermoelectric-paper.pdf",
+              "page": "1",
+              "chunk_id": null,
+              "section": "Abstract",
+              "status": "VALID",
+              "reason": "ok",
+              "evidence": {
+                "document_name": "thermoelectric-paper.pdf",
+                "page_number": 1
+              }
+            }
+          ],
+          "citation_accuracy": 1.0,
+          "citation_precision": 1.0,
+          "citation_recall": 0.333
+        },
+        "token_usage": {},
+        "latency_ms": 0,
+        "model": "mock",
+        "fallback": false
+      },
+      "local": {
+        "answer": "T \\* Q(hot + cold), where Q represents electric current flowing through wire.\nIn order to generate large amounts of electricity without burning fuel, we need materials capable of converting high temperatures (>10^9 K) efficiently.\nBisectables like TiO2 can achieve efficiencies above 2%, but they require extremely low thermal conductivity due to their crystalline structure.\nBioceramic has been shown to exhibit similar performance properties while being more expensive than TiO\u00b2.\nOur research focuses on biocompatible materials suitable for use in bioelectrochemical systems.\nTo date, there exist several types of bioplastics used in biomedical applications such as biodegradable polymers for tissue engineering scaffolds.\nHowever, these plastics often lack",
+        "claims": [
+          {
+            "text": "T \\* Q(hot + cold), where Q represents electric current flowing through wire.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "In order to generate large amounts of electricity without burning fuel, we need materials capable of converting high temperatures (>10^9 K) efficiently.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Bisectables like TiO2 can achieve efficiencies above 2%, but they require extremely low thermal conductivity due to their crystalline structure.",
+            "type": "generated",
+            "claim_type": "causal_claim",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Bioceramic has been shown to exhibit similar performance properties while being more expensive than TiO\u00b2.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "Our research focuses on biocompatible materials suitable for use in bioelectrochemical systems.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "To date, there exist several types of bioplastics used in biomedical applications such as biodegradable polymers for tissue engineering scaffolds.",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          },
+          {
+            "text": "However, these plastics often lack",
+            "type": "generated",
+            "claim_type": "fact",
+            "evidence_ids": [],
+            "evidence": [],
+            "support_status": "not_applicable",
+            "support_score": 0.5,
+            "citation_status": "not_applicable"
+          }
+        ],
+        "grounding": {
+          "score": 0.649,
+          "percentage": 65,
+          "factors": {
+            "retrieval_relevance": 0.849,
+            "evidence_coverage": 0.5,
+            "claim_source_alignment": 0.535,
+            "contradiction_handled": 0.7,
+            "source_quality": 0.85,
+            "unsupported_claim_rate": 0,
+            "total_claims": 7,
+            "source_claims": 0,
+            "generated_claims": 7
+          },
+          "explanation": "Grounding based on 0 source claims vs 7 generated. Retrieval relevance 0.85, coverage 0.50."
+        },
+        "citations": {
+          "total_found": 0,
+          "valid_count": 0,
+          "partial_count": 0,
+          "invalid_count": 0,
+          "has_citations": false,
+          "retrieved_doc_pages": [
+            [
+              "thermoelectric-notes.md",
+              "1"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "4"
+            ],
+            [
+              "thermoelectric-paper.pdf",
+              "1"
+            ]
+          ],
+          "citations": [],
+          "citation_accuracy": 0.0,
+          "citation_precision": 0.0,
+          "citation_recall": 0.0
+        },
+        "token_usage": {
+          "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+          "prompt_tokens": 1500,
+          "completion_tokens": 150,
+          "total_tokens": 1650,
+          "latency_ms": 38782,
+          "cost": "unavailable"
+        },
+        "latency_ms": 39242,
+        "model": "local:HuggingFaceTB/SmolLM2-135M-Instruct",
+        "fallback": false
+      }
+    },
+    "ab_id": "5db1be92-5d48-42e1-81d4-97f86371fe4a",
+    "category": "derived",
+    "retrieval_label": "dense+cross_encoder"
+  }
+]

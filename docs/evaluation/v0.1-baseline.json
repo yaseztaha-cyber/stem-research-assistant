@@ -1,0 +1,143 @@
+{
+  "version": "v0.1",
+  "summary": {
+    "total_cases": 4,
+    "retrieval_recall": 0.5,
+    "retrieval_precision": 0.113,
+    "citation_accuracy": 0.5,
+    "groundedness": 0.615,
+    "unsupported_claim_rate": 0.0,
+    "answer_relevance": 0.461
+  },
+  "cases": [
+    {
+      "id": "cd9d616d-630c-4a89-b8b6-7fa5680eb113",
+      "question": "What equation defines electrical power?",
+      "expected_concept": "P = VI",
+      "expected_source_page": "4",
+      "expected_answer": "P = VI",
+      "document_ids": null
+    },
+    {
+      "id": "ded6c733-8771-4bc5-8cae-e36a706efad0",
+      "question": "What is the Seebeck effect?",
+      "expected_concept": "Seebeck",
+      "expected_source_page": "2",
+      "expected_answer": "voltage from temperature difference",
+      "document_ids": null
+    },
+    {
+      "id": "abcf8e0f-dc65-4efe-b8e2-bbb58f035d0d",
+      "question": "What is Ohm's law?",
+      "expected_concept": "V = IR",
+      "expected_source_page": "3",
+      "expected_answer": "V = IR",
+      "document_ids": null
+    },
+    {
+      "id": "f0e81269-8ffe-44c6-aee7-a873d70cbf2b",
+      "question": "How does temperature gradient affect output?",
+      "expected_concept": "temperature gradient",
+      "expected_source_page": "6",
+      "expected_answer": "larger gradient increases voltage",
+      "document_ids": null
+    }
+  ],
+  "evaluation_details": [
+    {
+      "case_id": "cd9d616d-630c-4a89-b8b6-7fa5680eb113",
+      "question": "What equation defines electrical power?",
+      "expected_page": "4",
+      "expected_concept": "P = VI",
+      "retrieved_count": 5,
+      "retrieval_recall": 1,
+      "retrieval_precision": 0.2,
+      "concept_hit": 0,
+      "groundedness": 0.468,
+      "unsupported_rate": 0.0,
+      "answer_relevance": 0.133,
+      "retrieved_pages": [
+        1,
+        4,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "case_id": "ded6c733-8771-4bc5-8cae-e36a706efad0",
+      "question": "What is the Seebeck effect?",
+      "expected_page": "2",
+      "expected_concept": "Seebeck",
+      "retrieved_count": 4,
+      "retrieval_recall": 1,
+      "retrieval_precision": 0.25,
+      "concept_hit": 1,
+      "groundedness": 0.759,
+      "unsupported_rate": 0.0,
+      "answer_relevance": 0.667,
+      "retrieved_pages": [
+        2,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "case_id": "abcf8e0f-dc65-4efe-b8e2-bbb58f035d0d",
+      "question": "What is Ohm's law?",
+      "expected_page": "3",
+      "expected_concept": "V = IR",
+      "retrieved_count": 5,
+      "retrieval_recall": 0,
+      "retrieval_precision": 0.0,
+      "concept_hit": 0,
+      "groundedness": 0.489,
+      "unsupported_rate": 0.0,
+      "answer_relevance": 0.6,
+      "retrieved_pages": [
+        2,
+        1,
+        5,
+        1,
+        1
+      ]
+    },
+    {
+      "case_id": "f0e81269-8ffe-44c6-aee7-a873d70cbf2b",
+      "question": "How does temperature gradient affect output?",
+      "expected_page": "6",
+      "expected_concept": "temperature gradient",
+      "retrieved_count": 3,
+      "retrieval_recall": 0,
+      "retrieval_precision": 0.0,
+      "concept_hit": 1,
+      "groundedness": 0.745,
+      "unsupported_rate": 0.0,
+      "answer_relevance": 0.444,
+      "retrieved_pages": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "retrieval_config": {
+    "embedding_provider": "tfidf",
+    "reranker": "SimpleReranker",
+    "semantic_weight": 0.6,
+    "keyword_weight": 0.4,
+    "normalization": "none",
+    "diversity": "none"
+  },
+  "grounding_config": {
+    "factors_weights": {
+      "retrieval": 0.25,
+      "coverage": 0.35,
+      "alignment": 0.2,
+      "contradiction": 0.1,
+      "quality": 0.1
+    }
+  },
+  "notes": "Baseline before v0.2 improvements. TF-IDF/BM25-lite, simple reranker, no query classification, no MMR."
+}

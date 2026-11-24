@@ -1,0 +1,6486 @@
+{
+ "count": 100,
+ "items": [
+  {
+   "question": "What equation defines electrical power?",
+   "system_answer": "P = V * I [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\nP = V * I [SOURCE: lab-manual.md p.1 \u00a7Objective]\nVariables: P power (W) [SOURCE], V voltage (V) [SOURCE], I current (A) [SOURCE]\nMeaning: The equation relates these variables as documented. [GENERATED]\n\nSupporting evidence:\n- - At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K\n- Ohm's Law... [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> \u26a0\ufe0f The supplied sources do not provide enough evidence to fully support all claims above. Unsupported claims have been flagged as [GENERATED] or should be verified.\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "5572490b-9017-44d8-8caf-523335f50252"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      5,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.5,
+   "category": "equation"
+  },
+  {
+   "question": "What is the Seebeck effect?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Safety Information]\n\nDefinition: This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Safety Information]\nExplanation: This describes the core concept as documented. [GENERATED]\n\nSupporting evidence:\n- This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEffi... [SOURCE: lab-manual.md p.1 \u00a7Safety Information]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.67,
+   "category": "definition"
+  },
+  {
+   "question": "What is Ohm's law?",
+   "system_answer": "V = I * R [SOURCE: lab-manual.md p.1 \u00a7Calculations]\n\nV = I * R [SOURCE: lab-manual.md p.1 \u00a7Calculations]\nVariables as defined in source [SOURCE]\nMeaning: The equation relates these variables as documented. [GENERATED]\n\nSupporting evidence:\n- - Ohm's Law: V = I * R\n  - V voltage (V), I current (A), R resistance (\u03a9)\n- Power: P = V * I\n  - P power (W)\n- Efficiency: \u03b7 = Pout / Pin\n  - \u03b7 efficiency (dimensionless or %)\n- He... [SOURCE: lab-manual.md p.1 \u00a7Calculations]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> \u26a0\ufe0f The supplied sources do not provide enough evidence to fully support all claims above. Unsupported claims have been flagged as [GENERATED] or should be verified.",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "5572490b-9017-44d8-8caf-523335f50252"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      5,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.5,
+   "category": "equation"
+  },
+  {
+   "question": "How does temperature gradient affect output?",
+   "system_answer": "Efficiency is defined as eta = Pout / Pin, where P is power. [SOURCE: thermoelectric-paper.pdf p.2 \u00a7Abstract]\n\nSupporting evidence:\n- 1. Why does power peak at matched load?\n2. How does heat sink performance affect \u0394T maintenance?\n- How does nanostructuring affect ZT?\n- What heat sink design maximizes \u0394T in pract... [SOURCE: thermoelectric-paper.pdf p.2 \u00a7Abstract]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "c0402802-fc25-40ee-aa83-170e9f6cfa9b",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.33,
+   "category": "comparison"
+  },
+  {
+   "question": "Define thermoelectric generator (TEG)",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\nDefinition: This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Objective]\nExplanation: This describes the core concept as documented. [GENERATED]\n\nSupporting evidence:\n- This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEffi... [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "c131734f-0a3d-4c78-abfc-e07da424cd49",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.67,
+   "category": "definition"
+  },
+  {
+   "question": "What is the Seebeck voltage equation?",
+   "system_answer": "V = S * \u0394T [SOURCE: lab-manual.md p.1 \u00a7Calculations]\n\nV = S * \u0394T [SOURCE: lab-manual.md p.1 \u00a7Calculations]\nVariables: V voltage (V) [SOURCE], S Seebeck coefficient (V/K) [SOURCE], \u0394T temperature difference (K) [SOURCE]\nMeaning: The equation relates these variables as documented. [GENERATED]\n\nSupporting evidence:\n- Thermoelectric effect converts thermal gradient to electrical energy.\n\n- When two different conductors are joined and junctions are at different temperatures, voltage is generated.... [SOURCE: lab-manual.md p.1 \u00a7Calculations]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> \u26a0\ufe0f The supplied sources do not provide enough evidence to fully support all claims above. Unsupported claims have been flagged as [GENERATED] or should be verified.",
+   "source_ids": [
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "bc03482e-6ce1-484d-9169-1e24b0015496",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "805046b9-5b19-42f7-8770-598234e25fbd"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      5,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      5,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.5,
+   "category": "equation"
+  },
+  {
+   "question": "What equation defines efficiency?",
+   "system_answer": "V = I * R [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\nV = I * R [SOURCE: lab-manual.md p.1 \u00a7Objective]\nVariables as defined in source [SOURCE]\nMeaning: The equation relates these variables as documented. [GENERATED]\n\nSupporting evidence:\n- - Ohm's Law: V = I * R\n  - V voltage (V), I current (A), R resistance (\u03a9)\n- Power: P = V * I\n  - P power (W)\n- Efficiency: \u03b7 = Pout / Pin\n  - \u03b7 efficiency (dimensionless or %)\n- He... [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> \u26a0\ufe0f The supplied sources do not provide enough evidence to fully support all claims above. Unsupported claims have been flagged as [GENERATED] or should be verified.\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.33,
+   "category": "equation"
+  },
+  {
+   "question": "What was the reported experimental improvement when \u0394T increased from 100K to 120K?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\nSupporting evidence:\n- This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical voltage: V = S * DeltaT.\nEffi... [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      3
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.83,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What maximum power was achieved at \u0394T=120K?",
+   "system_answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\nSupporting evidence:\n- 3. Results\n3. Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2.1 | 0.85 | 1.79\n100 | 2.8 | 1.12 | 3.14\n120 | 3.3 | 1.27 | 4.20\nThe electrical output increased by approximat... [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "b8f4117b-975f-42ab-a29c-1ac40f538873"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.5,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What efficiency was reported at \u0394T=120K?",
+   "system_answer": "- Output increased ~14% (normalized) when \u0394T 100K -> 120K\nThermoelectric effect converts thermal gradient to electrical energy. [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]\n\nSupporting evidence:\n- - At \u0394T = 120K, V \u2248 3.3 V, I \u2248 1.27 A, P \u2248 4.2 W\n- Efficiency 5.2% at that point.\n- ZT = 0.95 figure of merit.\n- Output increased ~14% (normalized) when \u0394T 100K -> 120K\nThermoelect... [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.83,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What materials were used in the experimental setup?",
+   "system_answer": "Efficiency is defined as eta = Pout / Pin, where P is power. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\nSupporting evidence:\n- 2. Experimental Setup\n2. Experimental Setup\nMaterials: Bi2Te3 modules, heat source, heat sink, thermocouples, electronic load.\nThis paper investigates thermoelectric energy convers... [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "23dd8004-09e9-4ad8-9618-72b765e41b91",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.33,
+   "category": "method"
+  },
+  {
+   "question": "What procedure was used to measure TEG performance?",
+   "system_answer": "1 [SOURCE: thermoelectric-paper.pdf p.5 \u00a7Procedure:]\n\nSupporting evidence:\n- 1. Apply thermal paste, mount TEG between hot plate and heat sink.\n2. Set hot side to 80\u00b0C, cold side ambient, wait for steady state (\u0394T \u2248 50K).\n3. Connect load resistor R = 4 \u03a9, m... [SOURCE: thermoelectric-paper.pdf p.5 \u00a7Procedure:]\n\nInterpretation: This follows from the documented mechanism [GENERATED].\n\n> Note: Limited evidence was retrieved; additional sources would increase confidence. [GENERATED]\n",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.33,
+   "category": "method"
+  },
+  {
+   "question": "What is the Seebeck coefficient reported?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: thermoelectric-notes.md p.1 \u00a7Common Mistakes]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "bc03482e-6ce1-484d-9169-1e24b0015496"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "numeric_fact"
+  },
+  {
+   "question": "What is the figure of merit ZT reported?",
+   "system_answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric_fact"
+  },
+  {
+   "question": "What contact resistance was reported?",
+   "system_answer": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element). [SOURCE: lab-manual.md p.1 \u00a7Variables]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "9e1e7aa9-f1b3-4732-bfe5-b3a1c5822321",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric_fact"
+  },
+  {
+   "question": "Compare ZT of this work vs literature nanostructured Bi2Te3",
+   "system_answer": "4. Discussion\n4. Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element).\nDeviation at high DeltaT du [SOURCE: lab-manual.md p.1]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 1.75,
+   "category": "comparison"
+  },
+  {
+   "question": "How does power output vary with DeltaT?",
+   "system_answer": "Efficiency is defined as eta = Pout / Pin, where P is power. [SOURCE: lab-manual.md p.1 \u00a7Questions]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "c0402802-fc25-40ee-aa83-170e9f6cfa9b",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "comparison"
+  },
+  {
+   "question": "What columns are in the thermoelectric dataset?",
+   "system_answer": "1 [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.0,
+   "category": "dataset"
+  },
+  {
+   "question": "How many rows are in the dataset?",
+   "system_answer": "- How does nanostructuring affect ZT?\n- What heat sink design maximizes \u0394T in practice?\nThermoelectric effect converts thermal gradient to electrical energy [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "271542e5-d95e-469f-b155-881f7a02100c"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "dataset"
+  },
+  {
+   "question": "What limitations were reported in the study?",
+   "system_answer": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element). [SOURCE: thermoelectric-notes.md p.1 \u00a7Research Questions to Explore]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "research_gap"
+  },
+  {
+   "question": "What future work is suggested?",
+   "system_answer": "Future work: optimize heat sink design, test nanostructured material to improve ZT [SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+   "source_ids": [
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.92,
+   "category": "research_gap"
+  },
+  {
+   "question": "What safety precautions are in the lab manual?",
+   "system_answer": "4 [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.17,
+   "category": "procedure"
+  },
+  {
+   "question": "What is the lab objective?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Safety Information]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.83,
+   "category": "procedure"
+  },
+  {
+   "question": "What are common materials across paper and lab manual?",
+   "system_answer": "- When two different conductors are joined and junctions are at different temperatures, voltage is generated [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "271542e5-d95e-469f-b155-881f7a02100c"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "multi_document"
+  },
+  {
+   "question": "What equation appears in both notes and paper?",
+   "system_answer": "V = S * \u0394T [SOURCE: lab-manual.md p.1 \u00a7Calculations]",
+   "source_ids": [
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "bc03482e-6ce1-484d-9169-1e24b0015496"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.33,
+   "category": "multi_document"
+  },
+  {
+   "question": "Which DeltaT configuration produced the highest power output?",
+   "system_answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.5,
+   "category": "table"
+  },
+  {
+   "question": "What was the power at 100K DeltaT?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "table"
+  },
+  {
+   "question": "Which experiment had the lowest efficiency in the dataset?",
+   "system_answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 25.0% (sample-dataset.csv p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.17,
+   "category": "table"
+  },
+  {
+   "question": "What table shows DeltaT, V, I, P values?",
+   "system_answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.92,
+   "category": "table"
+  },
+  {
+   "question": "What row in the table corresponds to 80K DeltaT with 2.1V?",
+   "system_answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.67,
+   "category": "table"
+  },
+  {
+   "question": "What variables appear in the Seebeck equation V = S * DeltaT?",
+   "system_answer": "V = S * \u0394T [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "bc03482e-6ce1-484d-9169-1e24b0015496",
+    "805046b9-5b19-42f7-8770-598234e25fbd"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.92,
+   "category": "equation"
+  },
+  {
+   "question": "What happens to P if V doubles while I is constant according to P = VI?",
+   "system_answer": "If v doubles while others remain constant, P doubles. [DERIVED from P = VI]\n[SOURCE: thermoelectric-notes.md p.1]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.17,
+   "category": "equation"
+  },
+  {
+   "question": "What happens to V if I increases with R constant per V = IR?",
+   "system_answer": "P = VI [SOURCE]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "bc03482e-6ce1-484d-9169-1e24b0015496",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "equation"
+  },
+  {
+   "question": "What equation would you use to find heat Q?",
+   "system_answer": "V = I * R [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "bc03482e-6ce1-484d-9169-1e24b0015496"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "equation"
+  },
+  {
+   "question": "Calculate power if V=3.3V and I=1.27A",
+   "system_answer": "Dataset: sample-dataset.csv\nColumns: DeltaT_K, Voltage_V, Current_A, Power_W, Efficiency_pct, Temp_Hot_C, Temp_Cold_C, Load_Ohm\nRows: 12\n\nDeltaT_K  Vo [SOURCE: thermoelectric-paper.pdf p.4]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric"
+  },
+  {
+   "question": "Calculate Q for m=0.5kg c=4186 DeltaT=20K",
+   "system_answer": "P = VI [SOURCE]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "5572490b-9017-44d8-8caf-523335f50252"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "numeric"
+  },
+  {
+   "question": "What is the derived power if V=2.8V I=1.12A?",
+   "system_answer": "Applications include waste heat recovery and remote power. [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric"
+  },
+  {
+   "question": "If DeltaT increases from 80K to 120K, how much does V increase according to data?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: thermoelectric-paper.pdf p.5 \u00a7Procedure:]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      1,
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.25,
+   "category": "numeric"
+  },
+  {
+   "question": "What is the largest DeltaT tested?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: thermoelectric-notes.md p.1 \u00a7Research Questions to Explore]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "numeric"
+  },
+  {
+   "question": "Do sources agree on efficiency at 120K?",
+   "system_answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.5,
+   "category": "contradiction"
+  },
+  {
+   "question": "Which source reports higher ZT, paper or literature?",
+   "system_answer": "Comparison: Literature reports ZT=1 [SOURCE: thermoelectric-notes.md p.1 \u00a7Research Questions to Explore]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "23dd8004-09e9-4ad8-9618-72b765e41b91",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.92,
+   "category": "contradiction"
+  },
+  {
+   "question": "Provide APA citation for the thermoelectric paper",
+   "system_answer": "1 [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.17,
+   "category": "citation"
+  },
+  {
+   "question": "Provide IEEE citation for the lab manual",
+   "system_answer": "3 [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.17,
+   "category": "citation"
+  },
+  {
+   "question": "What is the Seebeck coefficient unit?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "bc03482e-6ce1-484d-9169-1e24b0015496"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "definition"
+  },
+  {
+   "question": "What is the smallest load resistance tested?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "table"
+  },
+  {
+   "question": "What is the relationship between DeltaT and V?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "concept"
+  },
+  {
+   "question": "How to calculate efficiency from Pout and Pin?",
+   "system_answer": "P = VI [SOURCE]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 4.2W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "method"
+  },
+  {
+   "question": "What research gap exists for heat sink design?",
+   "system_answer": "- How does nanostructuring affect ZT?\n- What heat sink design maximizes \u0394T in practice?\n1 [SOURCE: thermoelectric-paper.pdf p.2 \u00a7Abstract]",
+   "source_ids": [
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "23dd8004-09e9-4ad8-9618-72b765e41b91"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.83,
+   "category": "research_gap"
+  },
+  {
+   "question": "What is the definition of efficiency in thermoelectrics?",
+   "system_answer": "Efficiency is defined as eta = Pout / Pin, where P is power. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5,
+     "mad": 0.0,
+     "values": [
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5,
+     "mad": 0.0,
+     "values": [
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 4.33,
+   "category": "definition"
+  },
+  {
+   "question": "What load resistance was used for the 80K measurement with 2.1V?",
+   "system_answer": "Vary load resistance from 1 to 10 Ohms [SOURCE: thermoelectric-paper.pdf p.4 \u00a7Procedure:]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.67,
+   "category": "table"
+  },
+  {
+   "question": "If the Seebeck coefficient is 210 uV/K and DeltaT is 100K, what is V?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: thermoelectric-notes.md p.1 \u00a7Common Mistakes]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "271542e5-d95e-469f-b155-881f7a02100c"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric"
+  },
+  {
+   "question": "What does ZT represent in thermoelectrics?",
+   "system_answer": "- How does nanostructuring affect ZT?\n- What heat sink design maximizes \u0394T in practice?\n- At \u0394T = 120K, V \u2248 3 [SOURCE: lab-manual.md p.1 \u00a7Measurements]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "c0402802-fc25-40ee-aa83-170e9f6cfa9b",
+    "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "definition"
+  },
+  {
+   "question": "What is the Seebeck coefficient?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: thermoelectric-notes.md p.1 \u00a7Common Mistakes]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "definition"
+  },
+  {
+   "question": "What equation relates heat to mass and temperature change?",
+   "system_answer": "V = I * R [SOURCE: lab-manual.md p.1 \u00a7Calculations]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "5572490b-9017-44d8-8caf-523335f50252"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "equation"
+  },
+  {
+   "question": "Calculate efficiency if Pout is 4.2W and Pin is 80W",
+   "system_answer": "P = VI [SOURCE]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "805046b9-5b19-42f7-8770-598234e25fbd"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 1.92,
+   "category": "calculation"
+  },
+  {
+   "question": "If load resistance doubles with same voltage, what happens to current per Ohm's law?",
+   "system_answer": "P = VI [SOURCE]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "bc03482e-6ce1-484d-9169-1e24b0015496"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.17,
+   "category": "calculation"
+  },
+  {
+   "question": "What is the voltage if S is 210 uV/K per element with 127 elements at DeltaT 100K?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Expected Observations]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 6.0% (lab-manual.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "b8f4117b-975f-42ab-a29c-1ac40f538873",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "calculation"
+  },
+  {
+   "question": "How much power is dissipated if I is 2A and R is 2.5 Ohm?",
+   "system_answer": "P = VI [SOURCE]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.58,
+   "category": "calculation"
+  },
+  {
+   "question": "If DeltaT is 0K, what is the expected Seebeck voltage?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Safety Information]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "271542e5-d95e-469f-b155-881f7a02100c"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.5,
+   "category": "calculation"
+  },
+  {
+   "question": "What power was measured at 80K DeltaT?",
+   "system_answer": "Efficiency is defined as eta = Pout / Pin, where P is power. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What current was measured at 120K DeltaT?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What voltage was measured at 100K DeltaT?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "experimental_result"
+  },
+  {
+   "question": "What thermocouple accuracy was reported?",
+   "system_answer": "- Thermocouple accuracy \u00b11K\n- Contact thermal resistance\n- Heat loss to ambient not accounted in \u03b7\nRecord in table: \u0394T (K), R (\u03a9), V (V), I (A), P (W)\n4. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "9e1e7aa9-f1b3-4732-bfe5-b3a1c5822321",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.58,
+   "category": "experimental_result"
+  },
+  {
+   "question": "How was load resistance varied in the experiment?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "method"
+  },
+  {
+   "question": "What temperatures were maintained for hot and cold sides?",
+   "system_answer": "1 [SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "e02b8278-ab38-4c27-adc3-761a49de44de"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.0,
+   "category": "method"
+  },
+  {
+   "question": "What instruments measured V and I?",
+   "system_answer": "Apply thermal paste, mount TEG between hot plate and heat sink. [SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "method"
+  },
+  {
+   "question": "What thermal interface was used between module and plates?",
+   "system_answer": "Apply thermal paste, mount TEG between hot plate and heat sink [SOURCE: thermoelectric-paper.pdf p.5 \u00a7Procedure:]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "b4de73c2-8dc0-4643-88a5-50cda3250df0",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.58,
+   "category": "method"
+  },
+  {
+   "question": "What is the first step of the lab procedure?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "procedure"
+  },
+  {
+   "question": "What should be done before disassembly of the hot setup?",
+   "system_answer": "- Allow 10 minutes cool-down before disassembly [SOURCE: thermoelectric-paper.pdf p.3 \u00a7Procedure:]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "f3bc9898-e10d-4e66-a657-f3810acc814a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "relevance": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.5,
+     "median": 4.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      5
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 5.0,
+     "median": 5.0,
+     "mad": 0.0,
+     "values": [
+      5,
+      5
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 4.58,
+   "category": "procedure"
+  },
+  {
+   "question": "What fan-related safety step is required?",
+   "system_answer": "Safety: Hot surfaces >100C, use thermal gloves [SOURCE: lab-manual.md p.1 \u00a7Safety Information]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "b4de73c2-8dc0-4643-88a5-50cda3250df0",
+    "f3bc9898-e10d-4e66-a657-f3810acc814a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.67,
+   "category": "procedure"
+  },
+  {
+   "question": "What measurements are recorded per load setting?",
+   "system_answer": "- When two different conductors are joined and junctions are at different temperatures, voltage is generated [SOURCE: lab-manual.md p.1 \u00a7Expected Observations]",
+   "source_ids": [
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.5,
+   "category": "procedure"
+  },
+  {
+   "question": "How does the Seebeck voltage at 80K compare to 120K?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules.\nThe Seebeck effect converts temperature gradients into electrical [SOURCE: thermoelectric-paper.pdf p.5]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "comparison"
+  },
+  {
+   "question": "Which is larger: power at 80K or at 100K?",
+   "system_answer": "Results show electrical output increased by approximately 14% when DeltaT increased from 100K to 120K. [SOURCE: thermoelectric-notes.md p.1 \u00a7Key Equations]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 2.5,
+   "category": "comparison"
+  },
+  {
+   "question": "Compare contact resistance variation to thermocouple accuracy as error sources",
+   "system_answer": "4. Discussion\n4. Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element).\nDeviation at high DeltaT du [SOURCE: lab-manual.md p.1]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "9e1e7aa9-f1b3-4732-bfe5-b3a1c5822321",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "comparison"
+  },
+  {
+   "question": "Does the paper or the lab manual describe more load values?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "c0402802-fc25-40ee-aa83-170e9f6cfa9b",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "comparison"
+  },
+  {
+   "question": "Which documents mention Bi2Te3 modules?",
+   "system_answer": "2 [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "23dd8004-09e9-4ad8-9618-72b765e41b91",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "8ee45c6f-e2cd-4e74-be12-8f35bda24137",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.0,
+   "category": "multi_document"
+  },
+  {
+   "question": "Which documents state P = VI?",
+   "system_answer": "Set hot side to 80\u00b0C, cold side ambient, wait for steady state (\u0394T \u2248 50K) [SOURCE: thermoelectric-paper.pdf p.1 \u00a7Abstract]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "multi_document"
+  },
+  {
+   "question": "Do paper and lab manual agree on DeltaT 120K conditions?",
+   "system_answer": "Measure V and I for each load [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "multi_document"
+  },
+  {
+   "question": "Which document contains the dataset columns?",
+   "system_answer": "Dataset: sample-dataset [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.5,
+   "category": "multi_document"
+  },
+  {
+   "question": "What current corresponds to 100K DeltaT with 2.8V in the table?",
+   "system_answer": "Results\nTable: DeltaT (K) | V (V) | I (A) | P (W)\n80 | 2 [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "completeness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.67,
+   "category": "table"
+  },
+  {
+   "question": "Why does the normalized 14 percent differ from raw 33 percent power increase?",
+   "system_answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: thermoelectric-notes.md p.1 \u00a7Experimental Insights (from paper)]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "c0402802-fc25-40ee-aa83-170e9f6cfa9b",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      3,
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "directness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.75,
+   "category": "contradiction"
+  },
+  {
+   "question": "Is the reported ZT 0.95 consistent with steady-state assumption?",
+   "system_answer": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element). [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 5.2% (thermoelectric-notes.md p.1), 14.0% (thermoelectric-notes.md p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "0b694184-2049-4a9f-b22f-031962228bab",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "contradiction"
+  },
+  {
+   "question": "Do dataset efficiencies match the paper 5.2 percent exactly?",
+   "system_answer": "3 [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.5,
+   "category": "contradiction"
+  },
+  {
+   "question": "Does higher DeltaT always increase efficiency linearly?",
+   "system_answer": "20\nThe electrical output increased by approximately 14 percent when DeltaT increased from 100K to 120K (norm\nalized per area after accounting for heat loss; raw power 3. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.0,
+     "median": 3,
+     "mad": 0.0,
+     "values": [
+      3
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 2.17,
+   "category": "contradiction"
+  },
+  {
+   "question": "Which reference is the Thermoelectrics Handbook?",
+   "system_answer": "The fundamental mechanism: charge carriers diffuse from hot to cold side, creating voltage [SOURCE: thermoelectric-paper.pdf p.4 \u00a7Procedure:]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "8ee45c6f-e2cd-4e74-be12-8f35bda24137",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "citation"
+  },
+  {
+   "question": "What journal published the Bi2Te3 nanostructures reference?",
+   "system_answer": "Bi2Te3 nanostructures, Journal of Applied Physics, 2020 [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "8ee45c6f-e2cd-4e74-be12-8f35bda24137",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 3.0,
+     "median": 3.0,
+     "mad": 0.0,
+     "values": [
+      3,
+      3
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 3.5,
+     "median": 3.5,
+     "mad": 0.5,
+     "values": [
+      4,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4.0,
+     "mad": 0.0,
+     "values": [
+      4,
+      4
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 3.75,
+   "category": "citation"
+  },
+  {
+   "question": "What citation style lists DOI as https://doi.org?",
+   "system_answer": "- How does nanostructuring affect ZT?\n- What heat sink design maximizes \u0394T in practice?\nMeasure the performance of a commercial Bi2Te3 thermoelectric module as a function of temperature difference and [SOURCE: thermoelectric-paper.pdf p.6 \u00a7Procedure:]",
+   "source_ids": [
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "5572490b-9017-44d8-8caf-523335f50252",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "citation"
+  },
+  {
+   "question": "Why is testing only three DeltaT points a limitation?",
+   "system_answer": "Discussion\n4 [SOURCE: lab-manual.md p.1 \u00a7Objective]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.0,
+   "category": "research_gap"
+  },
+  {
+   "question": "What would nanostructured material improve?",
+   "system_answer": "Future work: optimize heat sink design, test nanostructured material to improve ZT [SOURCE: lab-manual.md p.1 \u00a7Measurements]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 4.0,
+   "category": "research_gap"
+  },
+  {
+   "question": "What long-term effect is not evaluated?",
+   "system_answer": "Introduction\nThermoelectric generators (TEGs) directly convert heat to electricity via the Seebeck effect [SOURCE: thermoelectric-notes.md p.1 \u00a7Research Questions to Explore]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "f3bc9898-e10d-4e66-a657-f3810acc814a",
+    "c131734f-0a3d-4c78-abfc-e07da424cd49"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.5,
+   "category": "research_gap"
+  },
+  {
+   "question": "What is the correlation between DeltaT and Voltage in the dataset?",
+   "system_answer": "Discussion\n4 [SOURCE: thermoelectric-notes.md p.1 \u00a7Seebeck Effect]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "271542e5-d95e-469f-b155-881f7a02100c"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "citation_quality": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.0,
+   "category": "dataset"
+  },
+  {
+   "question": "Does the dataset establish causation between temperature and output?",
+   "system_answer": "Applications include waste heat recovery and remote power. [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "dataset"
+  },
+  {
+   "question": "What are the min and max DeltaT in the dataset?",
+   "system_answer": "Discussion\nThe increase in voltage with DeltaT follows V = S * DeltaT closely (S ~ 210 uV/K per element) [SOURCE: lab-manual.md p.1 \u00a7Objective]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1). The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      1,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      1,
+      2
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 1.5,
+   "category": "dataset"
+  },
+  {
+   "question": "What visualization is suggested for numeric columns?",
+   "system_answer": "The fundamental mechanism: charge carriers diffuse from hot to cold side, creating voltage [SOURCE: lab-manual.md p.1 \u00a7Procedure]\n\n> **Conflict detected [SOURCE]:** power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "dataset"
+  },
+  {
+   "question": "If current is 1.12A and voltage is 2.8V, is the reported 3.14W consistent?",
+   "system_answer": "Applications include waste heat recovery and remote power. [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.5,
+     "median": 2.5,
+     "mad": 0.5,
+     "values": [
+      2,
+      3
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 1.42,
+   "category": "derived"
+  },
+  {
+   "question": "Does P equal I squared R follow from P = VI and V = IR?",
+   "system_answer": "Key equation: V = S * DeltaT where S is Seebeck coefficient (V/K), DeltaT is temperature difference (K) [SOURCE: thermoelectric-notes.md p.1 \u00a7Key Equations]",
+   "source_ids": [
+    "1e61d645-33b6-4b22-8149-6f8f492f3b7a",
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "derived"
+  },
+  {
+   "question": "If DeltaT is constant but S doubles, what happens to V?",
+   "system_answer": "P = VI [SOURCE]",
+   "source_ids": [
+    "271542e5-d95e-469f-b155-881f7a02100c",
+    "0b705923-0bf4-41e2-bb3c-b5b9848733ac",
+    "805046b9-5b19-42f7-8770-598234e25fbd",
+    "5572490b-9017-44d8-8caf-523335f50252"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.67,
+   "category": "derived"
+  },
+  {
+   "question": "Is 4.2W at 120K consistent with V 3.3V and I 1.27A?",
+   "system_answer": "Apply thermal paste, mount TEG between hot plate and heat sink [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 25.0% (sample-dataset.csv p.1), 50.0% (sample-dataset.csv p.1); power values differ: 3.14W, 4.2W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "2e0ce285-3920-40dd-ab89-6033083fabe1",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "89cbc53d-aca2-4cc4-b2f4-b44872b6759e",
+    "b4de73c2-8dc0-4643-88a5-50cda3250df0"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.5,
+     "median": 1.5,
+     "mad": 0.5,
+     "values": [
+      1,
+      2
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2.0,
+     "mad": 0.0,
+     "values": [
+      2,
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1.0,
+     "mad": 0.0,
+     "values": [
+      1,
+      1
+     ]
+    }
+   },
+   "grader_count": 2,
+   "consensus_score": 1.42,
+   "category": "derived"
+  },
+  {
+   "question": "What load range in Ohms was tested?",
+   "system_answer": "Vary load resistance from 1 to 10 Ohms [SOURCE: lab-manual.md p.1 \u00a7Sources of Error]",
+   "source_ids": [
+    "1f53f016-27bb-4a99-be4c-ea91f43e7a56",
+    "86aaaf5c-7a50-4699-84c8-c1cec2a157eb",
+    "821b3dc6-7b6b-4bae-afb3-aca52ff5db0e",
+    "4a2ff7a4-f524-4ed8-be7a-2d4490cf1ecf"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "relevance": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "completeness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "grounding": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "citation_quality": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    },
+    "directness": {
+     "mean": 4.0,
+     "median": 4,
+     "mad": 0.0,
+     "values": [
+      4
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 4.0,
+   "category": "numeric_fact"
+  },
+  {
+   "question": "What is 5.2 percent as a decimal?",
+   "system_answer": "This paper investigates thermoelectric energy conversion using Bi2Te3-based modules. [SOURCE: sample-dataset.csv p.1 \u00a7Dataset Overview]\n\n> **Conflict detected [SOURCE]:** efficiency values differ: 14.0% (thermoelectric-paper.pdf p.1), 5.2% (thermoelectric-notes.md p.1); power values differ: 4.2W, 3.14W. The sources therefore disagree on this point. [SOURCE]",
+   "source_ids": [
+    "d312027b-00a0-4cd8-b3e7-2c90f3172745",
+    "82704aa3-9238-4c32-ac4e-00a1a450975e",
+    "2aa9bee8-8218-4b33-b3e0-d6b38c39d246",
+    "0b694184-2049-4a9f-b22f-031962228bab"
+   ],
+   "scores": {
+    "correctness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "relevance": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "completeness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    },
+    "grounding": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "citation_quality": {
+     "mean": 2.0,
+     "median": 2,
+     "mad": 0.0,
+     "values": [
+      2
+     ]
+    },
+    "directness": {
+     "mean": 1.0,
+     "median": 1,
+     "mad": 0.0,
+     "values": [
+      1
+     ]
+    }
+   },
+   "grader_count": 1,
+   "consensus_score": 1.33,
+   "category": "numeric_fact"
+  }
+ ],
+ "note": "Anonymized; no personal data. Only cases with >=1 human grade."
+}

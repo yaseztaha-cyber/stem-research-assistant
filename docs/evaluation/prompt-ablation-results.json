@@ -1,0 +1,47 @@
+{
+  "P1_basic": {
+    "prompt_version": "v1",
+    "context_mode": "flat",
+    "apply_validation": false,
+    "answer_relevance_v2": 0.479,
+    "answer_relevance_v3": 0.375,
+    "groundedness": 0.739,
+    "citation_pass_rate": 1.0
+  },
+  "P2_query_structure": {
+    "prompt_version": "v2",
+    "context_mode": "flat",
+    "apply_validation": false,
+    "answer_relevance_v2": 0.479,
+    "answer_relevance_v3": 0.375,
+    "groundedness": 0.739,
+    "citation_pass_rate": 1.0
+  },
+  "P3_evidence_hierarchy": {
+    "prompt_version": "v2",
+    "context_mode": "optimized",
+    "apply_validation": false,
+    "answer_relevance_v2": 0.466,
+    "answer_relevance_v3": 0.313,
+    "groundedness": 0.649,
+    "citation_pass_rate": 0.93
+  },
+  "P4_answer_plan": {
+    "prompt_version": "v3",
+    "context_mode": "optimized",
+    "apply_validation": false,
+    "answer_relevance_v2": 0.466,
+    "answer_relevance_v3": 0.313,
+    "groundedness": 0.649,
+    "citation_pass_rate": 0.93
+  },
+  "P5_validation": {
+    "prompt_version": "v3",
+    "context_mode": "optimized",
+    "apply_validation": true,
+    "answer_relevance_v2": 0.466,
+    "answer_relevance_v3": 0.313,
+    "groundedness": 0.649,
+    "citation_pass_rate": 0.93
+  }
+}

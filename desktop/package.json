@@ -1,0 +1,51 @@
+{
+  "name": "stem-research-assistant",
+  "version": "1.0.0",
+  "description": "AI STEM Research Assistant - Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:installer": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.stemresearch.assistant",
+    "productName": "STEM Research Assistant",
+    "files": [
+      "main.js",
+      "preload.js",
+      "backend/**/*",
+      "frontend/dist/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "backend",
+        "to": "backend"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "STEM Research Assistant"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}

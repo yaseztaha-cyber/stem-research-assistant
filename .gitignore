@@ -1,0 +1,37 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+storage/app.db
+storage/uploads/*
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# desktop build
+desktop/dist/
+desktop/build/
+desktop/node_modules/
+
+# env
+backend/.env
+.env
+
+# logs
+*.log
+.pytest_cache/
+
+# large artifacts
+*.zip
+*.exe
+
+desktop/python-embed/
+desktop/node_modules/
+desktop/dist/
+models/
+storage/
+.pytest_cache/

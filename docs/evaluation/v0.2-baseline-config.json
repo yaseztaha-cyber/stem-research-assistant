@@ -1,0 +1,41 @@
+{
+  "version": "v0.2",
+  "embedding_provider": "tfidf",
+  "dense_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker_provider": "simple",
+  "cross_encoder_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "semantic_weight": 0.6,
+  "keyword_weight": 0.4,
+  "top_k_retrieval": 30,
+  "top_k_rerank": 8,
+  "mmr_lambda": 0.7,
+  "grounding_threshold": 0.6,
+  "document_parser": "layout_aware",
+  "equation_parser": "advanced",
+  "benchmark": {
+    "total_cases": 25,
+    "recall_at_5": 0.96,
+    "precision_at_5": 0.52,
+    "mrr": 0.836,
+    "ndcg_at_5": 0.874,
+    "retrieval_recall": 1.0,
+    "retrieval_precision": 0.52,
+    "citation_accuracy": 1.0,
+    "citation_precision": 1.0,
+    "citation_recall": 0.2,
+    "groundedness": 0.616,
+    "unsupported_claim_rate": 0.0,
+    "answer_relevance": 0.358
+  },
+  "total_cases": 25,
+  "model_versions": {
+    "scikit_learn": "1.9.0",
+    "pypdf": "6.18.0",
+    "sympy": "1.14.0"
+  },
+  "active_providers": {
+    "embedding": "tfidf",
+    "reranker": "simple"
+  },
+  "recorded_at": "2026-09-15 reproducible"
+}

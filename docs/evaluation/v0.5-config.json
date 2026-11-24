@@ -1,0 +1,30 @@
+{
+  "version": "v0.5",
+  "timestamp": "2026-09-16",
+  "system_version": "0.2.0",
+  "retrieval": {
+    "embedding_provider": "tfidf",
+    "reranker_provider": "simple",
+    "semantic_weight": 0.6,
+    "keyword_weight": 0.4,
+    "top_k_retrieval": 30,
+    "top_k_rerank": 8,
+    "mmr_lambda": 0.7
+  },
+  "generation": {
+    "default_llm_provider": "mock",
+    "real_llm": "OpenAI-compatible HTTP (LLM_BASE_URL, LLM_MODEL, LLM_API_KEY) — not run, no credentials",
+    "local_llm": "HuggingFaceTB/SmolLM2-135M-Instruct (pilot only)",
+    "answer_prompt_version": "v3",
+    "temperature": 0.2,
+    "top_p": 1.0,
+    "max_tokens": 1200
+  },
+  "evaluation_dataset": {
+    "cases": 100,
+    "human_graded": 100,
+    "double_graded": 30,
+    "pairwise graded": 30
+  },
+  "note": "See docs/evaluation/v0.5-report.md for full results."
+}

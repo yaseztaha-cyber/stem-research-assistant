@@ -1,0 +1,6 @@
+[
+  {"question": "What equation defines electrical power?", "expected_source": "P = V * I on page 1", "category": "equation"},
+  {"question": "What is the Seebeck voltage equation?", "expected_source": "V = S * DeltaT", "category": "equation"},
+  {"question": "How much did output increase when DeltaT went 100K->120K?", "expected_source": "14% (normalized) page 4", "category": "experimental result"},
+  {"question": "What is Ohm's law?", "expected_source": "V = IR", "category": "equation"}
+]

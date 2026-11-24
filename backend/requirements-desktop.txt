@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic
+pydantic-settings
+python-multipart
+python-dotenv
+pypdf
+pandas
+numpy
+scikit-learn
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
+sympy
+reportlab
